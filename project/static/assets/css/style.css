@@ -1,0 +1,1651 @@
+
+     <style type="text/css" media="all">#barra-brasil div,#barra-brasil a,#barra-brasil ul,#barra-brasil li{margin:0;padding:0;font-size:100%;font-family:inherit;vertical-align:baseline;border:none}#barra-brasil ul{list-style:none}@font-face{font-family:"Open Sans";font-style:normal;font-weight:700;font-display:swap;src:local("Open Sans Bold"),local("OpenSans-Bold"),url("//barra.brasil.gov.br/static/opensans-bold.woff") format("woff")}#barra-brasil{height:32px;background:#f1f1f1;font-weight:bold;font-size:12px;line-height:32px;font-family:"Open Sans",Arial,Helvetica,sans-serif;border-bottom:1px solid #dfdfdf;box-sizing:content-box}#barra-brasil a{text-decoration:none}body.contraste #barra-brasil,body.contraste .link-vlibras{background:#000 !important}body.contraste #barra-brasil .link-barra,body.contraste #barra-brasil .link-vlibras{color:#FF0 !important;text-decoration:underline}div#wrapper-barra-brasil{position:relative;margin:0 auto;width:100%;max-width:960px;height:100%}#barra-brasil .brasil-flag{float:left;padding:7px 0 6px;width:115px;border-right:2px solid #dfdfdf}#barra-brasil .brasil-flag .link-barra{display:block;padding-left:42px;width:43px;background:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2226%22%20height%3D%2219%22%20viewBox%3D%220%200%201000%20700%22%3E%3Cpath%20fill%3D%22%2300923F%22%20d%3D%22M0%200h1000v700H0z%22%2F%3E%3Cpath%20fill%3D%22%23F8C300%22%20d%3D%22M500%2085L85%20350l415%20265%20415-265L500%2085z%22%2F%3E%3Ccircle%20fill%3D%22%2328166F%22%20cx%3D%22499%22%20cy%3D%22350%22%20r%3D%22174%22%2F%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M395%20296c103%200%20199%2038%20272%20101%202-8%204-17%205-26-75-61-172-98-277-98-18%200-36%201-53%203-3%208-6%2016-9%2025%2020-3%2041-4%2063-4z%22%2F%3E%3C%2Fsvg%3E") 8px center no-repeat;text-transform:uppercase;line-height:19px}#barra-brasil #brasil-vlibras{position:absolute;top:0;right:0}#barra-brasil #brasil-vlibras .logo-vlibras{background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOSIgaGVpZ2h0PSIyOSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI2Ni4yNTAzOCwtMjMxLjY4NTk0KSI+PHBhdGggZD0ibTI5Mi40IDIzNy44Yy0wLjEgMC0wLjItMC4xLTAuMi0wLjIgMC0xLTEuOC0yLjYtNC4xLTIuNmwtMi41IDAtNC44IDMuNi00LjgtMy42LTIuNSAwYy0yLjQgMC00LjEgMS42LTQuMSAyLjYgMCAwLjEtMC4xIDAuMi0wLjIgMC4yLTAuMSAwLTAuMi0wLjEtMC4yLTAuMiAwLTEuNCAyLjEtMy4xIDQuNi0zLjFsMi40IDAgMC42LTAuNmMwLjEtMC4xIDAuMi0wLjEgMC4zIDBsMy45IDQuNiAzLjktNC42YzAuMS0wLjEgMC4yLTAuMSAwLjMgMGwwLjYgMC42IDIuNCAwYzIuNSAwIDQuNiAxLjcgNC42IDMuMSAwIDAuMS0wLjEgMC4yLTAuMiAwLjJ6bS0zIDEwLjRjLTAuMSAwLjctMC4yIDEtMC4zIDEgMCAwLjEtMC4xIDAuMS0wLjIgMC4xLTAuMSAwLTAuMS0wLjEtMC4xLTAuMiAwIDAgMC4xLTAuMyAwLjItMC45IDAuMS0wLjYtMC4yLTEuMS0wLjItMS4xIDAtMC4xIDAtMC4yIDAuMS0wLjIgMC4xIDAgMC4xIDAgMC4yIDAgMCAwIDAgMCAwIDAuMSAwIDAgMC4zIDAuNiAwLjIgMS4zem0tMSAwLjhjMCAwLjEtMC4xIDAuMS0wLjIgMC4xLTAuMSAwLTAuMS0wLjEtMC4xLTAuMiAwIDAgMC4xLTAuMyAwLjEtMC45IDAtMC42LTAuMy0xLjEtMC4zLTEuMSAwLTAuMSAwLTAuMiAwLjEtMC4yIDAuMSAwIDAuMSAwIDAuMiAwIDAgMCAwIDAgMCAwIDAgMCAwLjMgMC42IDAuMyAxLjMgMCAwLjctMC4xIDEtMC4yIDF6bS0wLjctMC40Yy0wLjMgMS4yLTAuOCAyLjItMC45IDIuNi0wLjIgMC40LTAuMyAwLjktMC4yIDIuMiAwIDEuMyAwIDIuMi0wLjEgMi41IDAgMC4yLTAuMiAwLjMtMC40IDAuMy0wLjIgMC0wLjMtMC4xLTAuNC0wLjQtMC4xLTAuNS0wLjMtMi42LTAuMy0yLjkgMC0wLjItMC4yLTAuNC0wLjMtMC40LTAuMSAwLTAuMiAwLjEtMC4zIDAuNS0wLjIgMC45LTAuNSAzLjEtMC42IDMuNi0wLjEgMC41LTAuMyAwLjYtMC40IDAuNi0wLjEgMC0wLjEgMC0wLjEgMCAwIDAgMCAwIDAgMC0wLjEgMC0wLjQgMC0wLjQtMC40IDAtMC41IDAuNC0zLjUgMC40LTMuOCAwLTAuMiAwLTAuMy0wLjEtMC4zLTAuMSAwLTAuMSAwLjEtMC4yIDAuMi0wLjMgMC40LTEuNyAyLjktMi4xIDMuNy0wLjEgMC4yLTAuMiAwLjItMC40IDAuMi0wLjEgMC0wLjIgMC0wLjMtMC4xLTAuMS0wLjEtMC4zLTAuNC0wLjItMC42IDAuMS0wLjIgMS41LTMuNCAxLjctMy44IDAuMS0wLjMgMC4xLTAuNS0wLjEtMC41LTAuMSAwLTAuMiAwLjEtMC40IDAuMi0wLjUgMC41LTIuNCAyLjUtMi43IDIuNy0wLjEgMC4xLTAuMiAwLjItMC4zIDAuMi0wLjEgMC0wLjItMC4xLTAuMy0wLjItMC4yLTAuMi0wLjItMC40LTAuMS0wLjYgMC4yLTAuMiAyLjYtMy4zIDMtNC4xIDAuNC0wLjcgMS0xLjktMC4yLTEuOS0wLjEgMC0wLjEgMC0wLjIgMC0wLjUgMC0wLjggMC4xLTEuMSAwLjEtMC41IDAtMC43LTAuMS0wLjgtMC4xLTAuMi0wLjEtMC42LTAuMy0wLjUtMC42IDAuMS0wLjIgMC43LTAuMSAxLTAuMiAwLjItMC4xIDAuMi0wLjEgMC4yLTAuMSAwIDAgMS4xLTAuMyAxLjgtMC43IDAuNy0wLjQgMi4zLTEuMSAyLjctMS4xIDAuMiAwIDAuNC0wLjEgMC42LTAuMSAwLjMgMCAwLjYgMCAwLjcgMC4xIDAuMyAwLjEgMC42IDAuOSAyIDEuNSAwIDAgMC42IDAuNiAwLjMgMS44em0tMTEuNyAyLjJjLTAuNC0xLjItMC42LTIuMy0wLjYtMi43LTAuMS0wLjQtMC4zLTAuOS0xLTEuOS0wLjctMS0xLjItMS44LTEuMy0yLjEtMC4xLTAuMiAwLjEtMC41IDAuNC0wLjUgMC4xIDAgMC4yIDAgMC4zIDAuMiAwLjQgMC40IDEuNyAyIDEuOSAyLjIgMC4xIDAuMSAwLjMgMC4yIDAuNCAwLjIgMC4yIDAgMC4yLTAuMSAwLjEtMC42LTAuMy0wLjktMS4zLTIuOS0xLjUtMy4zLTAuMy0wLjcgMC4xLTAuNyAwLjEtMC43IDAgMCAwLjEtMC4xIDAuMi0wLjEgMC4xIDAgMC4yIDAgMC4zIDAuMiAwLjIgMC40IDEuNiAzLjIgMS44IDMuNCAwLjEgMC4xIDAuMiAwLjIgMC4zIDAuMiAwLjEgMCAwLjEtMC4xIDAuMS0wLjMgMC0wLjUtMC4yLTMuMy0wLjMtNC4yIDAtMC4zIDAuMy0wLjUgMC41LTAuNSAwIDAgMCAwIDAgMCAwLjIgMCAwLjQgMC4yIDAuNSAwLjQgMC4xIDAuMiAwLjYgMy43IDAuNyA0LjIgMCAwLjIgMC4yIDAuNCAwLjMgMC40IDAuMSAwIDAuMi0wLjEgMC4zLTAuNCAwLjEtMC43IDAuNy0zLjQgMC43LTMuNyAwLTAuMyAwLjItMC40IDAuNC0wLjQgMCAwIDAuMSAwIDAuMSAwIDAuMiAwIDAuNCAwLjIgMC40IDAuNSAwIDAuMy0wLjMgMy43LTAuMiA0LjgtMC41IDAuMi0xIDAuNC0xLjMgMC40bDAgMCAwIDAtMC4yIDAuMWMwIDAtMC4xIDAtMC4yIDAtMC40IDAtMSAwLTEuMyAwLjYtMC4xIDAuMy0wLjIgMC42LTAuMSAwLjggMC4yIDAuNSAwLjggMC44IDAuOSAwLjkgMCAwIDAgMCAwIDAgMC4yIDAuMSAwLjUgMC4yIDEuMSAwLjIgMC4zIDAgMC42IDAgMS4xLTAuMS0wLjEgMC4yLTAuMiAwLjQtMC4zIDAuNmwtMC4xIDAuMWMtMC4yIDAuMy0wLjggMS4yLTEuOCAyLjUtMC4yIDAtMC4zIDAtMC41IDAtMC4zIDAtMC42IDAtMC45IDAuMSAwIDAtMC44LTAuMS0xLjMtMS4zem0wLjggMi4yYzAgMC4xLTAuMSAwLjEtMC4yIDAuMSAwIDAgMCAwLTAuMSAwIDAgMC0wLjYtMC4yLTEtMC44LTAuNC0wLjYtMC41LTAuOS0wLjUtMC45IDAtMC4xIDAtMC4yIDAuMS0wLjIgMC4xIDAgMC4yIDAgMC4yIDAuMSAwIDAgMC4xIDAuMyAwLjQgMC44IDAuNCAwLjUgMC45IDAuNyAwLjkgMC43IDAuMSAwIDAuMSAwLjEgMC4xIDAuMnptLTAuOSAwLjRjMCAwLjEtMC4xIDAuMS0wLjEgMC4xIDAgMC0wLjEgMC0wLjEgMCAwIDAtMC42LTAuMy0wLjktMC45LTAuNC0wLjYtMC40LTAuOS0wLjQtMSAwLTAuMSAwLjEtMC4yIDAuMS0wLjIgMC4xIDAgMC4yIDAuMSAwLjIgMC4xIDAgMCAwIDAuMyAwLjQgMC44IDAuMyAwLjUgMC44IDAuOCAwLjggMC44IDAuMSAwIDAuMSAwLjEgMC4xIDAuMnptMTQuOS0yMS44LTIwLjIgMGMtMi40IDAtNC40IDItNC40IDQuNGwwIDIwLjJjMCAyLjQgMiA0LjQgNC40IDQuNGwyMC4yIDBjMi40IDAgNC40LTIgNC40LTQuNGwwLTIwLjJjMC0yLjQtMi00LjQtNC40LTQuNCIgZmlsbD0iIzFjNGY5YyIvPjwvZz48L3N2Zz4K") 8px center no-repeat;position:absolute;top:0;right:0;width:43px;height:32px;display:block}#barra-brasil #brasil-vlibras .link-vlibras{height:0;top:32px;transition:0.1s;width:166px !important;display:block;border:2px solid #dfdfdf;color:#606060;visibility:hidden;position:relative}#barra-brasil #brasil-vlibras .link-vlibras a:hover,#barra-brasil #brasil-vlibras .link-vlibras a:focus,#barra-brasil #brasil-vlibras .link-vlibras a:active{visibility:visible;background:#f1f1f1;z-index:8}#barra-brasil #brasil-vlibras .logo-vlibras:hover+.link-vlibras,#barra-brasil #brasil-vlibras .logo-vlibras:active+.link-vlibras,#barra-brasil #brasil-vlibras .logo-vlibras:focus+.link-vlibras,#barra-brasil #brasil-vlibras .link-vlibras:hover,#barra-brasil #brasil-vlibras .link-vlibras:active,#barra-brasil #brasil-vlibras .link-vlibras:focus{width:132px !important;height:50px !important;display:inline-table;border:2px solid #dfdfdf;padding:10px 24px 10px 24px;visibility:visible;background:#f1f1f1;z-index:8;line-height:1.75em}#barra-brasil .eselo{position:absolute;top:0;right:44px;display:block;font-size:1.25em;color:blue}#barra-brasil .acesso-info{position:absolute;left:130px}#barra-brasil .list{position:absolute;top:0;right:40px;width:auto}#barra-brasil .list-eselo{right:90px !important}#barra-brasil .list .first{border-left:2px solid #dfdfdf}#barra-brasil .list-item{display:inline-block;height:32px;line-height:32px;border-right:2px solid #dfdfdf}#barra-brasil .list-item a{padding:8px 15px 8px 13px}#barra-brasil .link-barra{color:#606060}#barra-brasil #menu-icon{position:absolute;top:3px;border-top:15px double #606060;border-bottom:5px solid #606060;display:none;width:20px;right:5px}@media only screen and (max-width: 959px){#barra-brasil #menu-icon{display:inline-block;padding:5px 3px 0px 3px}#barra-brasil .list .first{border-left:1px solid #dfdfdf}#barra-brasil nav:hover #menu-icon,#barra-brasil nav:active #menu-icon,#barra-brasil nav:focus #menu-icon{background-color:#DDD}body.contraste #barra-brasil nav:hover #menu-icon,body.contraste #barra-brasil nav:active #menu-icon,body.contraste #barra-brasil nav:focus #menu-icon{background-color:#606060 !important}#barra-brasil ul.list,#barra-brasil ul.list:active,#barra-brasil ul.list:focus{overflow:hidden;height:0px;transition:0.3s;padding-top:32px;width:auto;position:absolute;z-index:9}#barra-brasil .list-item{display:block;text-align:center;height:30px;background:#EEE;border:1px solid #dfdfdf}#barra-brasil .list-item a{padding:8px 30px 8px 28px}body.contraste #barra-brasil .list-item{background:#000 !important}body.contraste #menu-icon{border-top:15px double #fff !important;border-bottom:5px solid #fff !important}#barra-brasil .list a:active li,#barra-brasil .list a:focus li,#barra-brasil .list a:hover li{background:#DDD}body.contraste #barra-brasil .list a:active li,body.contraste #barra-brasil .list a:focus li,body.contraste #barra-brasil .list a:hover li{background:#606060 !important}#barra-brasil nav:active ul.list,#barra-brasil nav:focus ul.list,#barra-brasil nav:hover ul.list{height:165px;transition:0.5s}div#wrapper-barra-brasil{overflow:visible}}@media screen and (min-width: 960px){#wrapper-barra-brasil{width:960px}}@media print{#barra-brasil .list{display:none}#barra-brasil .acesso-info .link-barra:after{content:" Barra GovBr"}}</style><style type="text/css" media="all">div#wrapper-footer-brasil{position:relative;overflow:hidden;margin:0 auto;width:auto;padding:0 20px;max-width:960px}#wrapper-footer-brasil .logo-acesso-footer{float:left;width:117px;background:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20117%2049%22%20height%3D%2249%22%20width%3D%22117%22%20shape-rendering%3D%22geometricPrecision%22%20text-rendering%3D%22geometricPrecision%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%3C!%5BCDATA%5B.a%20%7Bfont%3A%20normal%20bold%2011px%20Open%20Sans%2C%20sans-serif%3B%7D%5D%5D%3E%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%2223%22%20r%3D%2222%22%20fill%3D%22%23f6a800%22%2F%3E%3Cpath%20style%3D%22stroke%3A%23f6a800%3Bstroke-width%3A4%3Bstroke-linejoin%3Around%3B%22%20d%3D%22m%204%2C43%203%2C-6%204%2C3%20z%22%2F%3E%3Ccircle%20r%3D%224.5%22%20cy%3D%2211%22%20cx%3D%2222%22%20fill%3D%22%2300692c%22%2F%3E%3Cg%20fill%3D%22%23fff%22%3E%3Ctext%20x%3D%2248%22%20y%3D%2222%22%3E%3Ctspan%20class%3D%22a%22%20y%3D%2218%22%3EAcesso%20%C3%A0%3C%2Ftspan%3E%3Ctspan%20class%3D%22a%22%20x%3D%2248%22%20y%3D%2231%22%3EInforma%C3%A7%C3%A3o%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3Cpath%20style%3D%22stroke%3A%2300692c%3Bstroke-width%3A9%3Bstroke-linecap%3Around%3B%22%20d%3D%22m%2022%2C23%20v%2013%22%2F%3E%3C%2Fsvg%3E") center no-repeat;height:49px}#wrapper-footer-brasil .logo-governo-federal{float:left;width:149px;height:42px;background-repeat:no-repeat;background-position:bottom right;background-image:url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20enable-background%3D%22new%200%200%20115.5%2033.9%22%20version%3D%221.1%22%20viewBox%3D%220%200%20115.5%2033.9%22%20xml%3Aspace%3D%22preserve%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.m%7Bfill%3A%23FFF%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22m%22%20d%3D%22M4.1%2C32.3h40.3V22C33.5%2C20.3%2C13.2%2C25.4%2C4.1%2C32.3z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m53.2%206.2c0-0.7-0.2-1.3-0.6-1.7s-1-0.6-1.7-0.6h-2.1l-0.1%200.1v6.6h1.2v-2.2h0.9c0.4%200%200.7%200%201-0.1s0.5-0.2%200.7-0.4%200.4-0.4%200.5-0.7%200.2-0.7%200.2-1zm-1.4%200.4c0%200.1-0.1%200.3-0.2%200.4s-0.1%200.2-0.2%200.3-0.2%200.1-0.3%200.1h-1.1v-2.5h0.9c0.2%200%200.4%200%200.5%200.1l0.3%200.3c0.1%200.1%200.1%200.2%200.2%200.4v0.4c-0.1%200.2-0.1%200.3-0.1%200.5z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22M55.9%2C3.9h-0.8l-2.2%2C6.6v0.1c0.2%2C0.1%2C0.4%2C0.1%2C0.6%2C0.1h0.6l0.5-1.5H57l0.2%2C0.9c0.1%2C0.3%2C0.2%2C0.5%2C0.3%2C0.6%20%20s0.3%2C0.2%2C0.6%2C0.2s0.5%2C0%2C0.7-0.2L56.6%2C4C56.4%2C4%2C56.2%2C3.9%2C55.9%2C3.9z%20M55%2C8.1l0.4-1.2l0.4-1.6h0.1l0.5%2C1.9l0.3%2C1H55V8.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m59%203.9v1.2h1.7v5.6h1.4v-5.6h0.9c0.2%200%200.4%200%200.5-0.1s0.2-0.2%200.2-0.4%200-0.4-0.1-0.5h-4.6v-0.2z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m69.1%2010l-0.2-0.4-0.4-1-0.3-0.6c-0.1-0.2-0.2-0.2-0.4-0.3%200.2-0.1%200.3-0.2%200.5-0.3%200.1-0.1%200.3-0.2%200.4-0.4%200.1%200%200.2-0.2%200.3-0.4s0.1-0.4%200.1-0.6c0-0.7-0.2-1.2-0.6-1.5-0.4-0.4-1-0.5-1.7-0.5h-2.3v6.6h1.3v-2.5h0.6c0.2%200%200.4%200.1%200.6%200.2%200.1%200.1%200.2%200.3%200.3%200.5l0.4%201.2c0.1%200.3%200.2%200.5%200.3%200.6s0.3%200.2%200.5%200.2%200.4%200%200.5-0.1c0.2-0.1%200.3-0.2%200.4-0.3-0.1-0.1-0.2-0.3-0.3-0.4zm-2.4-3h-0.9v-2.1h0.9c0.7%200%201%200.4%201%201.1s-0.3%201-1%201z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m75.6%203.9h-0.8l-2.2%206.6v0.1c0.2%200.1%200.4%200.1%200.6%200.1h0.6l0.5-1.5h2.3l0.2%200.9c0.1%200.3%200.2%200.4%200.3%200.6%200.1%200.1%200.3%200.2%200.6%200.2s0.5%200%200.7-0.2l-2.1-6.7c-0.2%200-0.5-0.1-0.7-0.1zm-0.9%204.2l0.3-1.3%200.4-1.6h0.1l0.5%201.9%200.3%201h-1.6z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m83.7%203.9h-0.8l-2.2%206.6v0.1c0.2%200.1%200.4%200.1%200.6%200.1h0.6l0.5-1.5h2.3l0.3%200.8c0.1%200.3%200.2%200.4%200.3%200.6%200.1%200.1%200.3%200.2%200.6%200.2s0.5%200%200.7-0.2l-2.2-6.6c-0.2%200-0.4-0.1-0.7-0.1zm-0.9%204.2l0.4-1.2%200.4-1.6h0.1l0.5%201.9%200.3%201h-1.7v-0.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m97.7%203.9h-0.8l-2.2%206.6v0.1c0.2%200.1%200.4%200.1%200.6%200.1h0.6l0.5-1.5h2.3l0.3%200.8c0.1%200.3%200.2%200.4%200.3%200.6%200.1%200.1%200.3%200.2%200.6%200.2s0.5%200%200.7-0.2l-2.2-6.6c-0.2%200-0.4-0.1-0.7-0.1zm-0.9%204.2l0.4-1.2%200.4-1.6h0.1l0.5%201.9%200.3%201h-1.7v-0.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m106.1%204.9c-0.2-0.3-0.5-0.6-0.9-0.7-0.4-0.2-0.8-0.3-1.3-0.3h-2.3l-0.1%200.1v6.6l0.1%200.1h2.2c0.3%200%200.7%200%201-0.1s0.6-0.2%200.8-0.4c0.4-0.3%200.7-0.7%200.8-1.2%200.2-0.5%200.2-1%200.2-1.7%200-0.4%200-0.9-0.1-1.3s-0.2-0.7-0.4-1.1zm-0.8%203.1c0%200.2-0.1%200.4-0.1%200.6s-0.1%200.4-0.2%200.5c-0.1%200.2-0.2%200.3-0.4%200.4-0.1%200-0.2%200.1-0.4%200.1h-1.3v-4.6h1.1c0.6%200%201%200.3%201.2%200.8%200.1%200.2%200.2%200.5%200.2%200.8v0.8l-0.1%200.6z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m110.8%204c-0.2%200-0.4-0.1-0.7-0.1h-0.8l-2.2%206.6v0.1c0.2%200.1%200.4%200.1%200.6%200.1h0.6l0.5-1.5h2.3l0.2%200.9c0.1%200.3%200.2%200.4%200.3%200.6%200.1%200.1%200.3%200.2%200.6%200.2s0.5%200%200.7-0.2c0%200-2.1-6.7-2.1-6.7zm-1.6%204.1l0.4-1.2%200.4-1.6h0.1l0.5%201.9%200.3%201h-1.7v-0.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m70.4%204v6.7h1.3v-6.7h-0.7c-0.2-0.1-0.4-0.1-0.6%200z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m92.7%203.9c-0.3%200-0.6%200-0.9%200.1l-0.7%202.7c-0.2%200.8-0.3%201.3-0.4%201.7h-0.1l-0.4-1.7-0.7-2.7c-0.2%200-0.5-0.1-0.8-0.1s-0.6%200-0.9%200.1l-0.5%206.6c0.2%200%200.4%200.1%200.6%200.1s0.5%200%200.6%200l0.2-3.1%200.1-2.1h0.1l1.1%204.1h1.4l1.1-4.2h0.1l0.1%202.1%200.2%203.1h0.6c0.2%200%200.4%200%200.6-0.1l-0.5-6.5c-0.3-0.1-0.6-0.1-0.9-0.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m55.1%203.5l2.2-0.9c0-0.2-0.1-0.4-0.2-0.6s-0.2-0.3-0.3-0.4l-2.1%201.3c0%200.1%200.1%200.2%200.1%200.3l0.3%200.3z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m63.1%2029.1v2.7c0%200.1%200%200.2%200.1%200.3%200%200.1%200.1%200.1%200.2%200.1h1.2c0.2%200%200.4-0.1%200.4-0.3v-0.2h-1.4v-0.8h1v-0.4h-1v-0.8h1.4v-0.5h-1.9v-0.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m84.8%2029.1v3h0.6v-1.3h1v-0.4h-1v-0.8h1c0.1%200%200.2%200%200.2-0.1%200.1%200%200.1-0.1%200.1-0.2v-0.2h-1.9z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m89%2029.1v2.7c0%200.1%200%200.2%200.1%200.3%200%200.1%200.1%200.1%200.2%200.1h1.2c0.2%200%200.4-0.1%200.4-0.3v-0.2h-1.4v-0.8h1v-0.4h-1v-0.8h1.3v-0.5h-1.8v-0.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m98.3%2029.1v2.7c0%200.1%200%200.2%200.1%200.3%200%200.1%200.1%200.1%200.2%200.1h1.2c0.2%200%200.4-0.1%200.4-0.3v-0.2h-1.4v-0.8h1v-0.4h-1v-0.8h1.3v-0.5h-1.8v-0.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m60.2%2029.1l-0.6%202.5v-0.1c0-0.3-0.1-0.6-0.2-0.8l-0.4-1.4c0-0.1-0.1-0.2-0.1-0.2s-0.1-0.1-0.2-0.1-0.2%200-0.4%200.1l0.8%202.7c0%200.1%200.1%200.2%200.1%200.2h0.7l0.9-3h-0.3c-0.2%200-0.2%200-0.3%200.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m112%2029v2.7c0%200.1%200%200.2%200.1%200.3%200%200.1%200.1%200.1%200.2%200.1h1.1c0.2%200%200.4-0.1%200.4-0.3v-0.2h-1.2v-2.2c0-0.1%200-0.2-0.1-0.3s-0.2-0.1-0.3-0.1h-0.2z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m49.7%2029.1c-0.2%200.1-0.3%200.2-0.4%200.3s-0.2%200.3-0.3%200.5-0.1%200.4-0.1%200.7c0%200.2%200%200.4%200.1%200.6s0.1%200.4%200.2%200.5%200.2%200.2%200.4%200.3%200.3%200.1%200.6%200.1c0.4%200%200.8%200%201.2-0.2v-1.2c0-0.2-0.1-0.4-0.4-0.4h-0.7l-0.1%200.2c0%200.1%200%200.2%200.1%200.2%200%200%200.1%200.1%200.2%200.1h0.3v0.7h-0.5c-0.5%200-0.8-0.4-0.8-1.1s0.3-1.1%200.8-1.1c0.3%200%200.5%200.1%200.8%200.2%200.1%200%200.1-0.1%200.2-0.2%200-0.1%200.1-0.2%200.1-0.2-0.3-0.2-0.7-0.3-1-0.3-0.4%200.2-0.5%200.2-0.7%200.3z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m74.2%2029c-0.1%200-0.2%200-0.2%200.1s-0.1%200.2-0.1%200.3v2l-0.3-0.7-0.8-1.7h-0.7v3h0.6v-2.3l0.3%200.6%200.8%201.7h0.8v-3h-0.4z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m55.8%2029.4c-0.1-0.1-0.2-0.2-0.4-0.3-0.1-0.1-0.3-0.1-0.5-0.1s-0.4%200-0.5%200.1c-0.2%200.1-0.3%200.2-0.4%200.3s-0.2%200.3-0.2%200.5c-0.1%200.2-0.1%200.4-0.1%200.7%200%200.6%200.2%201%200.5%201.3%200.2%200.2%200.5%200.3%200.8%200.3%200.2%200%200.4%200%200.5-0.1%200.2-0.1%200.3-0.2%200.4-0.3s0.2-0.3%200.2-0.5c0.1-0.2%200.1-0.4%200.1-0.7%200-0.2%200-0.5-0.1-0.7s-0.2-0.3-0.3-0.5zm-0.9%202.3c-0.4%200-0.7-0.4-0.7-1.1s0.2-1.1%200.7-1.1c0.4%200%200.7%200.4%200.7%201.1-0.1%200.7-0.3%201.1-0.7%201.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m79.3%2029.9c0-0.2-0.1-0.4-0.2-0.5s-0.2-0.2-0.4-0.3-0.3-0.1-0.5-0.1-0.4%200-0.5%200.1c-0.2%200.1-0.3%200.2-0.4%200.3s-0.2%200.3-0.2%200.5c-0.1%200.2-0.1%200.4-0.1%200.7%200%200.6%200.2%201%200.5%201.3%200.2%200.2%200.5%200.3%200.8%200.3%200.2%200%200.4%200%200.5-0.1%200.2-0.1%200.3-0.2%200.4-0.3s0.2-0.3%200.2-0.5c0.1-0.2%200.1-0.4%200.1-0.7-0.1-0.3-0.1-0.5-0.2-0.7zm-1.1%201.8c-0.4%200-0.7-0.4-0.7-1.1s0.2-1.1%200.7-1.1c0.4%200%200.7%200.4%200.7%201.1-0.1%200.7-0.3%201.1-0.7%201.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m69.6%2031.8c0-0.1-0.1-0.1-0.1-0.2l-0.2-0.4c0-0.1-0.1-0.2-0.1-0.2-0.1-0.1-0.1-0.1-0.2-0.1%200.1%200%200.2-0.1%200.2-0.1%200.1%200%200.1-0.1%200.2-0.2%200-0.1%200.1-0.2%200.1-0.2v-0.3c0-0.3-0.1-0.5-0.3-0.8-0.2-0.2-0.4-0.2-0.8-0.2h-1v3h0.6v-1.2h0.3c0.1%200%200.2%200%200.3%200.1l0.2%200.2%200.2%200.5c0%200.1%200.1%200.2%200.2%200.3s0.1%200.1%200.2%200.1h0.2c0.1%200%200.1-0.1%200.2-0.1-0.1-0.1-0.2-0.1-0.2-0.2zm-1.1-1.3h-0.4v-1h0.4c0.3%200%200.5%200.2%200.5%200.5s-0.2%200.5-0.5%200.5z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m108.7%2029.1h-0.3-0.4l-1%203h0.6l0.2-0.7h1.1l0.1%200.4c0%200.1%200.1%200.2%200.1%200.2%200.1%200%200.2%200.1%200.3%200.1s0.2%200%200.3-0.1l-1-2.9zm-0.8%201.8l0.2-0.6c0.1-0.4%200.2-0.6%200.2-0.8l0.2%200.9%200.1%200.4h-0.7v0.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m95.5%2029.5c-0.1-0.1-0.2-0.2-0.4-0.3s-0.4-0.1-0.6-0.1h-1.1v3h1.5c0.1%200%200.2-0.1%200.4-0.2%200.2-0.2%200.3-0.3%200.4-0.6%200.1-0.2%200.1-0.5%200.1-0.8%200-0.2%200-0.4-0.1-0.6%200-0.1-0.1-0.3-0.2-0.4zm-0.3%201.4v0.3c0%200.1%200%200.2-0.1%200.2l-0.2%200.2h-0.9v-2.1h0.5c0.3%200%200.5%200.1%200.6%200.4%200%200.1%200.1%200.2%200.1%200.3v0.4%200.3z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m104.8%2031.8c0-0.1-0.1-0.1-0.1-0.2l-0.2-0.4c0-0.1-0.1-0.2-0.1-0.2-0.1-0.1-0.1-0.1-0.2-0.1%200.1%200%200.2-0.1%200.2-0.1%200.1%200%200.1-0.1%200.2-0.2%200-0.1%200.1-0.2%200.1-0.2v-0.3c0-0.3-0.1-0.5-0.3-0.8-0.2-0.2-0.4-0.2-0.8-0.2h-1v3h0.6v-1.2h0.2c0.1%200%200.2%200%200.3%200.1l0.2%200.2%200.2%200.5c0%200.1%200.1%200.2%200.2%200.3s0.1%200.1%200.2%200.1h0.2c0.1%200%200.1-0.1%200.2-0.1-0.1-0.1-0.1-0.1-0.1-0.2zm-1.1-1.3h-0.4v-1h0.4c0.3%200%200.5%200.2%200.5%200.5-0.1%200.3-0.2%200.5-0.5%200.5z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m78.2%2012.8c-0.5%200-0.9%200-1.2%200.1l-4.3%2013.1%200.1%200.1c0.3%200.1%201.6%200.1%201.9%200l1-3.3h5l0.7%202.3c0.1%200.4%200.3%200.7%200.5%200.9s1.7%200.2%202%200l-4.4-13.2h-1.3zm1%208.4h-2.9l1.2-3.5c0.4-1.2%200.6-2.1%200.8-2.8h0.1c0.3%201.2%200.7%202.4%201%203.5l0.9%202.8h-1.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m109.2%2024.3c-0.6%200-1.2%200-1.8%200.1v-10.3c0-0.5-0.1-0.8-0.3-1s-0.5-0.3-0.9-0.3h-0.8l-0.1%200.1v12c0%200.4%200.1%200.7%200.3%201%200.2%200.2%200.5%200.3%200.9%200.3h5.1c0.8%200%201.2-0.3%201.3-1%200-0.3%200.1-0.5%200.1-0.8h-3.8v-0.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m69.9%2024.2l-0.9-2.3c-0.3-0.9-0.8-1.4-1.4-1.7%200.7-0.2%201.3-0.7%201.8-1.3s0.7-1.4%200.7-2.3c0-1.3-0.4-2.3-1.2-2.9-0.8-0.7-1.9-1-3.3-1l-4.2%200.1-0.1%200.1v13.2c0.3%200.1%201.7%200.1%202.1%200v-5.4h1.6c0.6%200%201%200.1%201.3%200.4s0.5%200.7%200.7%201.2l1%202.6c0.2%200.5%200.3%200.8%200.5%201s1.9%200.1%202.2-0.4c-0.3-0.1-0.6-0.6-0.8-1.3zm-4.3-5.1h-2.2v-4.8h2.2c1.6%200%202.4%200.8%202.4%202.3%200%200.7-0.2%201.2-0.5%201.7-0.4%200.5-1%200.8-1.9%200.8z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m98.8%2012.8v13.3c0.3%200.1%200.7%200.1%201%200.1s0.7%200%201-0.1v-13.3c-0.3-0.1-0.6-0.1-1-0.1-0.3%200-0.7%200.1-1%200.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m92.3%2018.9l-2.3-1c-0.6-0.2-1-0.5-1.2-0.7-0.3-0.3-0.4-0.6-0.4-1.1s0.2-0.9%200.6-1.2%201-0.5%201.7-0.5c1%200%202.1%200.3%203.3%200.9%200.5-0.4%200.7-1%200.8-1.6-1.3-0.7-2.7-1-4-1-0.7%200-1.3%200.1-1.8%200.3-0.6%200.2-1%200.4-1.4%200.8s-0.7%200.8-0.9%201.2c-0.2%200.5-0.3%201-0.3%201.5%200%201.5%200.9%202.6%202.7%203.4l2.3%201c1.2%200.5%201.8%201.2%201.8%202.1%200%200.6-0.2%201-0.7%201.3-0.4%200.3-1%200.5-1.8%200.5-1.3%200-2.6-0.4-3.9-1.3-0.5%200.4-0.8%201-0.9%201.6%201.4%201%202.9%201.5%204.5%201.5%201.7%200%202.9-0.4%203.7-1.1s1.2-1.7%201.2-2.8c0-0.8-0.2-1.5-0.7-2.1-0.6-0.8-1.4-1.3-2.3-1.7z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22M44.4%2C17.1l0.1-13.3H4.1V19L20.3%2C6.2C35.9%2C13.1%2C43.9%2C16.8%2C44.4%2C17.1z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m57%2020.2c-0.2-0.3-0.5-0.6-0.8-0.8s-0.6-0.4-1-0.5c0.6-0.2%201-0.6%201.3-1.1s0.5-1%200.5-1.7c0-1.1-0.4-2-1.1-2.6s-1.8-0.9-3.2-0.9l-4%200.1-0.1%200.1v13.2l0.1%200.2h4.3c1.5%200%202.7-0.3%203.5-1s1.2-1.6%201.2-2.8c0-0.4-0.1-0.8-0.2-1.2s-0.3-0.7-0.5-1zm-6.3-5.9h2.1c1.5%200%202.2%200.7%202.2%202%200%200.3%200%200.5-0.1%200.8-0.1%200.2-0.2%200.5-0.4%200.6-0.2%200.2-0.4%200.3-0.7%200.4s-0.6%200.2-1.1%200.2h-2v-4zm4.8%208.9c-0.1%200.3-0.2%200.5-0.4%200.7s-0.5%200.4-0.8%200.5-0.7%200.2-1.2%200.2h-2.3v-4.7h2.2c0.5%200%200.9%200.1%201.2%200.2s0.6%200.3%200.8%200.5%200.4%200.5%200.5%200.8%200.2%200.6%200.2%200.8c-0.1%200.4-0.2%200.7-0.2%201z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m8.1%2027.1c0.9-5.5%203.9-9.2%209-11.2%201.8-0.7%203.6-1%205.3-1%205.2%200%209.2%202.8%209.2%203.2-0.4%200.1%205-0.6%209.7-0.9-3.8-1.7-10.6-4.7-20.7-9.1l-16.5%2013.2v8.8c1.6-1.3%204.3-3.2%204-3z%22%2F%3E%3Cpath%20class%3D%22m%22%20d%3D%22m22.5%2016.4c-1.5%200-3.1%200.3-4.8%201-4%201.7-6.7%204.7-7.8%208.9%204.4-2.8%209.2-5.4%2020-7.7-1.4-0.9-4.2-2.2-7.4-2.2z%22%2F%3E%3C%2Fsvg%3E")}body.contraste #footer-brasil{background:#000 !important}@media screen and (min-width: 960px){#wrapper-footer-brasil{width:960px}}@media print{#wrapper-footer-brasil{border-top:2px solid #dfdfdf}#wrapper-footer-brasil:before{content:"Barra GovBr";color:#606060;font-size:12px;font-family:"Open Sans",Arial,Helvetica,sans-serif}}</style><style type="text/css">:root topadblock, :root script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content, :root input[onclick^="window.open('http://www.FriendlyDuck.com/"], :root img[alt^="Fuckbook"], :root iframe[src^="http://static.mozo.com.au/strips/"], :root iframe[id^="google_ads_iframe"], :root div[jscontroller="U835zd"] + c-wiz[jsrenderer="YnuqN"], :root div[id^="zergnet-widget"], :root div[id^="traffective-ad-"], :root div[id^="sticky_ad_"], :root div[id^="rc-widget-"], :root div[id^="q1-adset-"], :root div[id^="proadszone-"], :root div[id^="lazyad-"], :root div[id^="gtm-ad-"], :root div[id^="google_ads_iframe_"], :root div[id^="ezoic-pub-ad"], :root div[id^="dmRosAdWrapper"], :root div[id^="div-gpt-ad"], :root div[id^="div-adtech-ad-"], :root div[id^="dfp-slot-"], :root div[id^="dfp-ad-"], :root div[id^="block-views-topheader-ad-block-"], :root div[id^="advt-"], :root div[id^="advads_"], :root div[id^="ads300_600-widget"], :root input[onclick^="window.open('http://www.friendlyduck.com/"], :root div[id^="ads300_250-widget"], :root div[id^="ads300_100-widget"], :root div[id^="ads250_250-widget"], :root div[id^="ads120_600-widget"], :root div[id^="adrotate_widgets-"], :root div[id^="ad_script_"], :root div[id^="ad_rect_"], :root div[id^="ad_position_"], :root div[id^="ad-server-"], :root div[id^="ad-cid-"], :root div[id^="acm-ad-tag-"], :root div[id^="YFBMSN"], :root div[id^="ADV-SLOT-"], :root div[data-spotim-slot], :root div[data-role="sidebarAd"], :root div[data-native_ad], :root div[data-mediatype="advertising"], :root div[data-id-advertdfpconf], :root div[data-crl="true"][data-id^="CarouselPLA-"], :root div[data-content="Advertisement"], :root div[data-adunit], :root div[data-adunit-path], :root div[class^="zn-sponsored-outbrain-"], :root div[class^="proadszone-"], :root div[class^="pane-google-admanager-"], :root div[class^="lifeOnwerAd"], :root iframe[name^="google_ads_iframe"], :root div[class^="largeRectangleAd_"], :root div[class^="kiwiad-popup"], :root div[class^="kiwiad-desktop"], :root div[class^="index_adBeforeContent_"], :root div[class^="index_adAfterContent_"], :root div[class^="index__adWrapper"], :root div[class^="block-openx-"], :root div[class^="backfill-taboola-home-slot-"], :root div[class^="articleAdUnitMPU_"], :root div[class^="advertisement-desktop"], :root div[class^="adsbutt_wrapper_"], :root div[class^="ads-partner-"], :root div[class^="adbanner_"], :root div[class^="ad_position_"], :root div[class^="SponsoredAds"], :root div[class^="ResponsiveAd-"], :root div[class^="PreAd_"], :root div[class^="Display_displayAd"], :root div[class^="BannerAd_"], :root div[class^="AdhesionAd_"], :root div[class^="Ad__bigBox"], :root div[class^="Ad__adContainer"], :root div[id^="divAdvAD_"], :root div[class^="ad_border_"], :root div[class^="AdItem-"], :root div[class^="AdEmbeded__AddWrapper"], :root span[data-component-type="s-ads-metrics"], :root div[class^="AdBannerWrapper-"], :root div[class*="_browserAdOuterContainer_"], :root div[class*="_AdInArticle_"], :root div[class*="-storyBodyAd-"], :root div[id^="adfox_"], :root div#main > div.D1fz0e, :root div > [class][onclick*=".updateAnalyticsEvents"], :root bottomadblock, :root aside[id^="tn_ads_widget-"], :root aside[id^="adrotate_widgets-"], :root amp-ad-custom, :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"], :root a[target="_blank"][href^="http://api.taboola.com/"], :root a[style="display:block;width:300px;min-height:250px"][href^="http://li.cnet.com/click?"], :root div[class^="BlockAdvert-"], :root a[src^="https://www.utherverse.com/net/"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"], :root div[role="navigation"] + c-wiz > script + div > .kxhcC, :root a[onclick*="//m.economictimes.com/etmack/click.htm"], :root a[href^="https://zononi.com/"], :root a[href^="https://www.what-sexdating.com/"], :root a[href^="https://www.vewwrmp.com/"], :root a[href^="https://www.share-online.biz/affiliate/"], :root a[href^="https://www.securegfm.com/"], :root DFP-AD, :root a[href^="//porngames.adult/?SID="], :root a[href^="https://www.oneclickroot.com/?tap_a="] > img, :root a[href^="http://www.duckcash.eu/"], :root a[href^="https://www.mrskin.com/account/"], :root a[href^="https://www.iyalc.com/"], :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="], :root a[href^="https://www.get-express-vpn.com/offer/"], :root a[href^="https://www.gambling-affiliation.com/cpc/"], :root a[href^="http://webgirlz.online/landing/"], :root a[href^="https://www.g4mz.com/"], :root a[href^="https://www.clicktraceclick.com/"], :root a[href^="https://www.camyou.com/?cam="][href*="&track="], :root a[href^="https://www.camsoda.com/enter.php?id="], :root a[href^="https://www.brazzersnetwork.com/landing/"], :root a[href^="https://www.bebi.com"], :root a[href^="https://www.awin1.com/cread.php?awinaffid="], :root a[href^="https://www.adskeeper.co.uk/"], :root a[href^="http://farm.plista.com/pets"], :root a[href^="https://windscribe.com/promo/"], :root a[href^="https://unreshiramor.com/"], :root a[href^="http://ad-emea.doubleclick.net/"], :root a[href^="https://understandsolar.com/signup/?lead_source="][href*="&tracking_code="], :root div[id^="tms-ad-dfp-"], :root a[href^="https://trust.zone/go/r.php?RID="], :root a[href^="https://trf.bannerator.com/"], :root a[href^="http://go.247traffic.com/"], :root a[href^="https://bestcond1tions.com/"], :root a[href^="https://trappist-1d.com/"], :root a[href^="https://traffic.bannerator.com/"], :root a[href^="https://tracking.truthfinder.com/?a="], :root #rhs_block .xpdopen > ._OKe > div > .mod > ._yYf, :root a[href^="https://tracking.gitads.io/"], :root a[href^="https://track.ultravpn.com/"], :root a[href^="https://www.adultempire.com/"][href*="?partner_id="], :root a[href^="https://track.healthtrader.com/"], :root a[href^="https://track.clickmoi.xyz/"], :root a[href^="https://control.trafficfabrik.com/"], :root a[href^="https://track.52zxzh.com/"], :root div[class^="div-gpt-ad"], :root .ra[align="right"][width="30%"], :root a[href^="https://axdsz.pro/"], :root a[href^="https://tour.mrskin.com/"], :root a[href^="https://tc.tradetracker.net/"] > img, :root a[href^="https://t.mobtya.com/"], :root a[href^="https://t.hrtyj.com/"], :root a[href^="https://t.hrtye.com/"], :root a[href^="https://syndication.optimizesrv.com/splash.php?"], :root a[href^="https://syndication.exoclick.com/splash.php?"], :root a[href^="http://connectlinking6.com/"], :root a[href^="http://cdn3.adexprts.com/"], :root a[href^="https://spygasm.com/track?"], :root div[id^="ad-div-"], :root a[href^="https://secure.eveonline.com/ft/?aid="], :root a[href^="https://secure.bstlnk.com/"], :root div[class^="kiwi-ad-wrapper"], :root a[href^="https://rev.adsession.com/"], :root [href*=".trackmstr.com"], :root a[href^="https://refpasrasw.world/"], :root a[href^="https://refpaexhil.top/"], :root a[href^="https://redirect.ero-advertising.com/"], :root div[id^="yandex_ad"], :root a[href*=".frtyl.com/"], :root a[href^="http://y1jxiqds7v.com/"], :root a[href^="https://www.hotgirls4fuck.com/"], :root a[href^="https://www.pornhat.com/"][rel="nofollow"], :root AD-SLOT, :root a[href^="https://pubads.g.doubleclick.net/"], :root a[href^="https://prf.hn/click/"][href*="/camref:"], :root a[href^="https://prf.hn/click/"][href*="/adref:"], :root #rhs_block .mod > .gws-local-hotels__booking-module, :root a[href^="http://www.my-dirty-hobby.com/?sub="], :root a[href^="https://porndeals.com/?track="], :root a[href^="https://offerforge.net/"], :root div[id^="ad_head_celtra_"], :root a[href^="https://t.grtyi.com/"], :root a[href^="https://myusenet.xyz/"], :root a[href^="https://my-movie.club/"], :root a[href^="https://msecure117.com/"], :root a[href^="https://mk-cdn.net/"], :root a[href^="https://mk-ads.com/"], :root a[href^="https://misspkl.com/"], :root a[href^="https://medleyads.com/"], :root a[href*=".approvallamp.club/"], :root a[href^="https://landing1.brazzersnetwork.com"], :root a[href^="http://adrunnr.com/"], :root a[href^="https://landing.brazzersplus.com/"], :root a[href^="https://land.rk.com/landing/"], :root .lads[width="100%"][style="background:#FFF8DD"], :root a[href^="https://land.brazzersnetwork.com/landing/"], :root a[href^="https://juicyads.in/"], :root a[href^="https://join.virtuallust3d.com/"], :root a[href^="http://www.uniblue.com/cm/"], :root a[href^="https://join.sexworld3d.com/track/"], :root a[href^="https://join.dreamsexworld.com/"], :root a[href^="https://incisivetrk.cvtr.io/click?"], :root a[href^="https://iactrivago.ampxdirect.com/"], :root a[href^="https://iac.ampxdirect.com/"], :root div[data-ismultirow="true"][data-id^="CarouselPLA-"], :root a[href^="https://horny-pussies.com/tds"], :root a[href^="https://graizoah.com/"], :root td[valign="top"] > .mainmenu[style="padding:10px 0 0 0 !important;"], :root a[href^="http://feedads.g.doubleclick.net/"], :root a[href^="https://redsittalvetoft.pro/"], :root a[href^="https://googleads.g.doubleclick.net/pcs/click"], :root a[href^="http://cdn.adstract.com/"], :root a[href^="https://gogoman.me/"], :root div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"], :root a[href^="https://go.trackitalltheway.com/"], :root a[href^="https://go.stripchat.com/"][href*="&campaignId="], :root a[href^="https://go.hpyrdr.com/"], :root a[href^="https://adnetwrk.com/"], :root a[href^="https://go.gldrdr.com/"], :root div[id^="mainads"], :root a[href^="https://go.currency.com/"], :root a[href^="https://track.afftck.com/"], :root a[href^="http://guideways.info/"], :root a[href^="https://go.cmrdr.com/"], :root a[href*=".inclk.com/"], :root a[href^="https://go.ad2up.com/"], :root a[href^="https://freeadult.games/"], :root a[href^="https://fonts.fontplace9.com/"], :root a[href^="http://clkmon.com/adServe/"], :root a[href^="https://flirtaescopa.com/"], :root a[href^="https://fleshlight.sjv.io/"], :root a[href^="https://fakelay.com/"], :root a[href^="https://earandmarketing.com/"], :root [lazy-ad="leftthin_banner"], :root a[href^="https://dynamicadx.com/"], :root .GFYY1SVE2 > .GFYY1SVD2 > .GFYY1SVG5, :root a[href^="https://djtcollectorclub.org/"][href*="?affiliate_id="], :root a[href^="http://adf.ly/?id="], :root a[href^="https://uncensored3d.com/"], :root a[href^="https://creacdn.top-convert.com/"], :root a[href*="=exoclick"], :root a[href^="https://www.chngtrack.com/"], :root a[href^="https://retiremely.com/"], :root a[href^="https://cpmspace.com/"], :root .commercial-unit-mobile-top > .v7hl4d, :root a[href^="https://click.plista.com/pets"], :root a[href^="https://chaturbate.xyz/"], :root a[href^="http://look.djfiln.com/"], :root a[href^="https://chaturbate.jjgirls.com/"][href*="?tour="], :root a[href^="https://chaturbate.com/in/?track="], :root a[href^="https://chaturbate.com/in/?tour="], :root a[href^="https://chaturbate.com/affiliates/"], :root [href*="wap4dollar.com/"], :root .__y_elastic .__y_item, :root a[href^="https://mcdlks.com/"], :root a[href^="https://bs.serving-sys.com"], :root .mod > ._jH + .rscontainer, :root a[href^="https://blackorange.go2cloud.org/"], :root a[href^="https://affiliates.bet-at-home.com/processing/"], :root a[href^="https://ads.ad4game.com/"], :root a[href^="https://betway.com/"][href*="&a="], :root a[href^="http://www.linkbucks.com/referral/"], :root a[href^="https://azpresearch.club/"], :root a[href^="https://awptjmp.com/"], :root a[href^="http://www.fleshlight.com/"], :root a[href^="https://aweptjmp.com/"], :root a[href^="http://www.1clickdownloader.com/"], :root a[href^="https://www.googleadservices.com/pagead/aclk?"], :root a[href^="https://awentw.com/"], :root a[href^="https://albionsoftwares.com/"], :root a[href^="//postlnk.com/"], :root a[href^="https://affiliate.rusvpn.com/click.php?"], :root a[href^="http://adultfriendfinder.com/p/register.cgi?pid="], :root a[href^="https://www.popads.net/users/"], :root a[href^="//bwnjijl7w.com/"], :root a[href^="https://adultfriendfinder.com/go/page/landing"], :root ADS-RIGHT, :root .GKJYXHBF2 > .GKJYXHBE2 > .GKJYXHBH5, :root a[href^="https://adserver.adreactor.com/"], :root a[href^="https://refpaano.host/"], :root a[href^="https://meet-to-fuck.com/tds"], :root a[href^="https://adhealers.com/"], :root app-advertisement, :root a[href^="https://ad.doubleclick.net/"], :root a[href^="http://zevera.com/afi.html"], :root a[href^="http://go.oclaserver.com/"], :root a[href^="https://ad.atdmt.com/"], :root .trc_rbox .syndicatedItem, :root a[href^="https://aaucwbe.com/"], :root a[href^="https://8a1ccf65f2b1302.com/"], :root a[href^="http://xtgem.com/click?"], :root a[href^="https://ads.trafficpoizon.com/"], :root div[class^="local-feed-banner-ads"], :root a[href^="http://wxdownloadmanager.com/dl/"], :root a[href^="http://www.zergnet.com/i/"], :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="http://www.usearchmedia.com/signup?"], :root a[href^="http://www.torntv-downloader.com/"], :root a[href^="http://www.tirerack.com/affiliates/"], :root a[href^="http://www.text-link-ads.com/"], :root a[href^="https://weedzy.co.uk/"][href*="&utm_"], :root a[href^="http://pokershibes.com/index.php?ref="], :root a[href^="https://usenetxs.website/"], :root a[href^="https://gghf.mobi/"], :root a[href^="http://www.terraclicks.com/"], :root a[href^="https://ads-for-free.com/click.php?"], :root a[href^="http://www.socialsex.com/"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root a[href^="http://www.sfippa.com/"], :root a[href^="http://www.xmediaserve.com/"], :root a[href^="http://www.sex.com/videos/?utm_"], :root a[href^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://www.sex.com/?utm_"], :root a[href^="http://secure.signup-page.com/"], :root a[href^="http://www.quick-torrent.com/download.html?aff"], :root a[href^="http://ffxitrack.com/"], :root a[href^="https://www.im88trk.com/"], :root a[href^="http://www.pinkvisualgames.com/?revid="], :root a[href^="https://trklvs.com/"], :root a[href^="http://www.paddypower.com/?AFF_ID="], :root a[href^="http://www.onwebcam.com/random?t_link="], :root a[href^="https://go.247traffic.com/"], :root a[href^="http://www.freefilesdownloader.com/"], :root a[href^="http://www.mysuperpharm.com/"], :root .trc_rbox_border_elm .syndicatedItem, :root a[href^="http://www.myfreepaysite.com/sfw_int.php?aid"], :root a[href^="http://www.myfreepaysite.com/sfw.php?aid"], :root .rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"], :root a[href^="http://www.moneyducks.com/"], :root a[href^="http://bcntrack.com/"], :root a[href^="http://www.securegfm.com/"], :root a[href^="http://www.liversely.net/"], :root [href*="//trackmstr.com"], :root [href*="prayuserparka.com/"], :root a[href^="http://www.idownloadplay.com/"], :root a[href^="http://www.hitcpm.com/"], :root a[href^="http://fusionads.net"], :root a[href^="http://www.hibids10.com/"], :root div[class^="awpcp-random-ads"], :root [href*="//securesafemembers.com"], :root a[href^="http://www.graboid.com/affiliates/"], :root a[href^="http://www.gamebookers.com/cgi-bin/intro.cgi?"], :root div[id^="div_openx_ad_"], :root a[href^="http://www.friendlyquacks.com/"], :root a[href^="https://www.financeads.net/tc.php?"], :root a[href^="http://www.friendlyduck.com/AF_"], :root a[href^="https://content.oneindia.com/www/delivery/"], :root a[href^="http://www.fpcTraffic2.com/blind/in.cgi?"], :root a[href^="http://www.flashx.tv/downloadthis"], :root .trc_rbox_div a[target="_blank"][href^="http://tab"], :root a[href^="https://americafirstpolls.com/"], :root a[href^="http://clickserv.sitescout.com/"], :root a[href^="http://www.firstload.de/affiliate/"], :root a[href^="http://www.twinplan.com/AF_"], :root a[href^="http://www.fducks.com/"], :root a[href^="http://www.easydownloadnow.com/"], :root a[href^="http://www.duckssolutions.com/"], :root a[href^="https://go.trkclick2.com/"], :root a[href^="http://go.seomojo.com/tracking202/"], :root a[href^="http://www.downloadweb.org/"], :root a[href^="http://www.down1oads.com/"], :root a[href^="https://trafficmedia.center/"], :root a[href^="http://www.dealcent.com/register.php?affid="], :root .rscontainer > .ellip, :root a[href^="http://www.clkads.com/adServe/"], :root a[href^="https://track.interactivegf.com/"], :root div[class^="adpubs-"], :root a[href*="deliver.trafficfabrik.com"], :root a[href^="http://www.cash-duck.com/"], :root a[href^="https://aff-ads.stickywilds.com/"], :root a[href^="http://www.bitlord.me/share/"], :root div[class^="Directory__footerAds"], :root a[href^="http://www.bet365.com/"][href*="?affiliate="], :root a[href^="http://www.bet365.com/"][href*="&affiliate="], :root .grid > .container > #aside-promotion, :root a[href^="http://www.babylon.com/welcome/index?affID"], :root a[onmousedown^="this.href='/wp-content/embed-ad-content/"], :root a[href^="//adbit.co/?a=Advertise&"], :root a[href^="http://popup.taboola.com/"], :root a[href^="https://fast-redirecting.com/"], :root a[href^="http://www.sexgangsters.com/?pid="], :root a[href^="http://www.amazon.co.uk/exec/obidos/external-search?"], :root a[href^="http://go.ad2up.com/"], :root a[href^="https://badoinkvr.com/"], :root a[href*="/adServe/banners?"], :root a[href^="http://www.adxpansion.com"], :root .plistaList > .itemLinkPET, :root a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"], :root a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"], :root a[href^="http://www.ragazzeinvendita.com/?rcid="], :root a[href^="http://www.TwinPlan.com/AF_"], :root a[href^="http://www.123-reg.co.uk/affiliate2.cgi"], :root div[itemtype="http://www.schema.org/WPAdBlock"], :root a[href^="http://wopertific.info/"], :root a[href^="http://bodelen.com/"], :root a[href^="http://wgpartner.com/"], :root a[href^="http://web.adblade.com/"], :root a[href^="https://go.onclasrv.com/"], :root a[href^="http://wct.link/"], :root a[href^="https://topoffers.com/"][href*="/?pid="], :root a[href^="http://vinfdv6b4j.com/"], :root a[href^="http://s9kkremkr0.com/"], :root a[href^="https://www.nutaku.net/signup/landing/"], :root a[href^="http://us.marketgid.com"], :root a[href^="http://ul.to/ref/"], :root a[href^="http://ucam.xxx/?utm_"], :root a[href^="https://adsrv4k.com/"], :root a[href^="http://trk.mdrtrck.com/"], :root a[href^="http://traffic.tc-clicks.com/"], :root a[href^="http://www.liutilities.com/"], :root a[href^="http://www.dl-provider.com/search/"], :root a[href^="http://tc.tradetracker.net/"] > img, :root a[href^="http://tracking.deltamediallc.com/"], :root div[aria-label="Ads"], :root a[href^="http://axdsz.pro/"], :root a[href^="https://go.ebrokerserve.com/"], :root a[href^="http://galleries.securewebsiteaccess.com/"], :root a[href^="http://stateresolver.link/"], :root a[href^="http://sharesuper.info/"], :root a[href^="https://awecrptjmp.com/"], :root a[href^="http://server.cpmstar.com/click.aspx?poolid="], :root .trc_related_container div[data-item-syndicated="true"], :root a[href^="https://www.firstload.com/affiliate/"], :root a[href^="http://see.kmisln.com/"], :root a[href^="http://secure.vivid.com/track/"], :root a[href^="http://www.downloadthesefiles.com/"], :root a[href^="http://secure.cbdpure.com/aff/"], :root aside[id^="advads_ad_widget-"], :root a[href^="http://lp.ezdownloadpro.info/"], :root a[href^="http://uploaded.net/ref/"], :root a[href^="http://azmobilestore.co/"], :root a[href^="http://s5prou7ulr.com/"], :root a[href^="https://easygamepromo.com/ef/custom_affiliate/"], :root a[href^="http://record.betsafe.com/"], :root a[href^="http://mo8mwxi1.com/"], :root a[href^="https://bnsjb1ab1e.com/"], :root a[href^="https://prf.hn/click/"][href*="/creativeref:"], :root a[href^="//oardilin.com/"], :root a[href^="http://pwrads.net/"], :root a[href^="http://promos.bwin.com/"], :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://play4k.co/"], :root a[href^="http://partner.sbaffiliates.com/"], :root div[id^="ad-gpt-"], :root a[href^="http://pan.adraccoon.com?"], :root a[href*="//ezofferz.com/"], :root a[href^="https://dltags.com/"], :root a[href^="http://onclickads.net/"], :root a[href^="http://n.admagnet.net/"], :root a[href^="//awejmp.com/"], :root a[href^="http://mob1ledev1ces.com/"], :root a[href^="http://mmo123.co/"], :root div[id^="amzn-assoc-ad"], :root a[href^="https://www.oboom.com/ref/"], :root a[href^="http://media.paddypower.com/redirect.aspx?"], :root a[href^="https://fileboom.me/pr/"], :root a[href^="http://marketgid.com"], :root a[href^="https://deliver.ptgncdn.com/"], :root a[href^="http://latestdownloads.net/download.php?"], :root a[href^="http://k2s.cc/code/"], :root a[href^="https://gamescarousel.com/"], :root a[href^="http://istri.it/?"], :root a[href^="http://www.fbooksluts.com/"], :root a[href^="http://www.cdjapan.co.jp/aff/click.cgi/"], :root a[href^="//api.ad-goi.com/"], :root a[href*="//ridingintractable.com/"], :root aside[id^="div-gpt-ad"], :root a[href^="http://c.actiondesk.com/"], :root a[href^="http://intent.bingads.com/"], :root div[id^="crt-"][style], :root a[href^="http://igromir.info/"], :root a[href^="https://track.themadtrcker.com/"], :root a[href^="http://hyperlinksecure.com/go/"], :root a[href^="https://intrev.co/"], :root a[href^="http://https://www.get-express-vpn.com/offer/"], :root .ob_container .item-container-obpd, :root a[href^="http://websitedhoome.com/"], :root a[href*=".directtl.xyz/"], :root a[href^="http://www.adskeeper.co.uk/"], :root a[href^="https://clickadilla.com/"], :root a[href^="http://www.gfrevenge.com/landing/"], :root a[href^="http://45eijvhgj2.com/"], :root a[href^="http://hpn.houzz.com/"], :root a[href^="http://searchtabnew.com/"], :root a[href*="?adlivk="][href*="&refer="], :root a[href^="//look.djfiln.com/"], :root a[href^="http://greensmoke.com/"], :root a[href^="https://look.utndln.com/"], :root a[href^="//5e1fcb75b6d662d.com/"], :root #tads[aria-label], :root a[href^="http://googleads.g.doubleclick.net/pcs/click"], :root aside[itemtype="https://schema.org/WPAdBlock"], :root a[href^="https://watchmygirlfriend.tv/"], :root .nrelate .nr_partner, :root a[href^="http://go.xtbaffiliates.com/"], :root a[href^="http://install.securewebsiteaccess.com/"], :root a[href^="http://www.revenuehits.com/"], :root a[href^="http://go.mobisla.com/"], :root a[href^="//srv.buysellads.com/"], :root a[href^="http://g1.v.fwmrm.net/ad/"], :root .widget-pane-section-result[data-result-ad-type], :root a[href^="http://imads.integral-marketing.com/"], :root a[href^="http://freesoftwarelive.com/"], :root a[href^="http://adtrackone.eu/"], :root a[href^="http://finaljuyu.com/"], :root a[href^="http://fileloadr.com/"], :root a[href^="http://extra.bet365.com/"][href*="?affiliate="], :root a[href^="http://ethfw0370q.com/"], :root [id^="bunyad_ads_"], :root a[href^="http://elitefuckbook.com/"], :root a[href^="http://eclkmpsa.com/"], :root a[href^="http://earandmarketing.com/"], :root a[href*=".mfroute.com/"], :root #content > #center > .dose > .dosesingle, :root a[href^="http://campaign.bharatmatrimony.com/track/"], :root a[href*="3wr110.xyz/"], :root a[href^="http://d2.zedo.com/"], :root a[href^="http://keep2share.cc/pr/"], :root a[href^="https://iqoption.com/lp/mobile-partner/"][href*="?aff="], :root a[href^="http://cp.cbbp1.com"], :root a[href^="http://codec.codecm.com/"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://www.downloadplayer1.com/"], :root a[href^="http://clicks.binarypromos.com/"], :root a[href^="https://dediseedbox.com/clients/aff.php?"], :root a[href^="http://www.wantstraffic.com/"], :root a[href^="http://databass.info/"], :root div[class^="AdCard_"], :root a[href^="http://www.urmediazone.com/signup"], :root a[href^="http://click.plista.com/pets"], :root a[href^="http://chaturbate.com/affiliates/"], :root a[href^="http://www.firstload.com/affiliate/"], :root a[href^="http://www.friendlyadvertisements.com/"], :root a[href^="http://go.fpmarkets.com/"], :root a[href^="//00ae8b5a9c1d597.com/"], :root a[href^="http://cdn3.adbrau.com/"], :root [href^="https://secure.bmtmicro.com/servlets/"], :root a[href^="http://amzn.to/"] > img[src^="data"], :root a[href^="http://bs.serving-sys.com/"], :root a[href^="http://cpaway.afftrack.com/"], :root a[href^="http://cdn.adsrvmedia.net/"], :root [lazy-ad="top_banner"], :root a[href^="http://360ads.go2cloud.org/"], :root a[href^="http://dftrck.com/"], :root a[href^="http://casino-x.com/?partner"], :root a[href^="http://record.sportsbetaffiliates.com.au/"], :root a[href^="http://campeeks.com/"][href*="&utm_"], :root #flowplayer > div[style="position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px; z-index: 999;"], :root a[href^="http://download-performance.com/"], :root a[href^="http://www.on2url.com/app/adtrack.asp"], :root #\5f _nq__hh[style="display:block!important"], :root div[data-flt-ve="sponsored_search_ads"], :root [href^="https://affect3dnetwork.com/track/"], :root div[class^="index_displayAd_"], :root a[href^="http://adultgames.xxx/"], :root a[href^="https://s.zlink2.com/"], :root a[href^="http://semi-cod.com/clicks/"], :root a[href^="http://campaign.bharatmatrimony.com/cbstrack/"], :root a[href^="http://xads.zedo.com/"], :root a[href^="http://www.affiliates1128.com/processing/"], :root a[href^="http://c.jumia.io/"], :root a[href^="http://yads.zedo.com/"], :root a[href^="https://bullads.net/get/"], :root a[href^="http://down1oads.com/"], :root a[href^="http://buysellads.com/"], :root a[href^="https://uncensored.game/"], :root a[href^="http://betahit.click/"], :root a[href^="https://torguard.net/aff.php"] > img, :root a[href^="http://bestorican.com/"], :root a[href^="http://bcp.crwdcntrl.net/"], :root a[href^="http://bc.vc/?r="], :root a[href^="http://banners.victor.com/processing/"], :root a[href^="http://affiliate.glbtracker.com/"], :root a[href^="https://transfer.xe.com/signup/track/redirect?"], :root a[href^="http://anonymous-net.com/"], :root a[href^="http://hotcandyland.com/partner/"], :root a[href^="https://see.kmisln.com/"], :root a[href^="https://www.travelzoo.com/oascampaignclick/"], :root a[href^="http://affiliates.thrixxx.com/"], :root a[href^="http://affiliates.pinnaclesports.com/processing/"], :root a[href^="http://affiliate.coral.co.uk/processing/"], :root a[href^="http://aff.ironsocket.com/"], :root a[href^="http://adsrv.keycaptcha.com"], :root a[href^="https://secure.adnxs.com/clktrb?"], :root a[href^="http://adserver.adtechus.com/"], :root a[href^="http://adserver.adreactor.com/"], :root a[href^="//go.onclasrv.com/"], :root .GHOFUQ5BG2 > .GHOFUQ5BF2 > .GHOFUQ5BG5, :root #\5f _mom_ad_2, :root a[href^="http://ads.sprintrade.com/"], :root a[href^="https://www.mrskin.com/tour"], :root a[href^="http://adserver.adtech.de/"], :root a[href^="http://cwcams.com/landing/click/"], :root a[href^="http://ads.betfair.com/redirect.aspx?"], :root [id*="MarketGid"], :root #resultspanel > #topads, :root a[href^="http://espn.zlbu.net/"], :root a[href^="http://admrotate.iplayer.org/"], :root a[href^="http://reallygoodlink.extremefreegames.com/"], :root a[href^="http://adlev.neodatagroup.com/"], :root a[href^="http://ad.doubleclick.net/"], :root a[href^="https://k2s.cc/pr/"], :root a[href^="http://ad.au.doubleclick.net/"], :root a[href^="http://srvpub.com/"], :root a[href^="http://a.adquantix.com/"], :root a[href^="http://NowDownloadAll.com"], :root a[href^="http://adtrack123.pl/"], :root ad-desktop-sidebar, :root [id*="MGWrap"], :root a[href^="http://9amq5z4y1y.com/"], :root a[href^="http://1phads.com/"], :root a[href^="https://ismlks.com/"], :root a[href^="//zenhppyad.com/"], :root a[href^="//www.pd-news.com/"], :root [href*=".doubleclick-net.com"], :root a[href^="//www.mgid.com/"], :root a[href^="http://lp.ncdownloader.com/"], :root a[href^="//pubads.g.doubleclick.net/"], :root a[href^="http://refer.webhostingbuzz.com/"], :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"], :root a[href^="//nlkdom.com/"], :root a[href^="//medleyads.com/spot/"], :root a[href^="https://ilovemyfreedoms.com/"][href*="?affiliate_id="], :root [href*=".afftracks.online/"], :root div[class^="Component-dfp-"], :root a[href^="//healthaffiliate.center/"], :root .l-container > #fishtank, :root a[href^="http://www.ducksnetwork.com/"], :root a[href^="//go.vedohd.org/"], :root [onclick*="content.ad/"], :root a[href^="https://clixtrac.com/"], :root [href*=".adcampo.com/"], :root a[href^="https://www.oboom.com/ad/"], :root a[href^="//4f6b2af479d337cf.com/"], :root a[href^="//4c7og3qcob.com/"], :root a[href^="https://www.arthrozene.com/"][href*="?tid="], :root a[href^="http://tezfiles.com/pr/"], :root #rhs_block > ol > .rhsvw > .kp-blk > .xpdopen > ._OKe > ol > ._DJe > .luhb-div, :root a[href^=".vddfe.club/"], :root a[href^="https://awejmp.com/"], :root [href*="//go2page.net"], :root a[href^=" http://www.sex.com/"][href*="&utm_"], :root a[href^="https://adswick.com/"], :root a[href*="pussl3.com"], :root .GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB, :root a[href*="onclkds."], :root a[href^="https://adclick.g.doubleclick.net/"], :root a[href*=".intab.fun/"], :root a[href*="get-express-vpn.xyz"], :root a[href*="=adscript"], :root #mn #center_col > div > h2.spon:first-child, :root a[href*="=Adtracker"], :root a[href^="http://4c7og3qcob.com/"], :root a[href^="https://trusted-click-host.com/"], :root a[href^="https://members.linkifier.com/public/affiliateLanding?refCode="], :root a[href^="https://jmp.awempire.com/"], :root a[href^="https://track.totalav.com/"], :root a[href^="http://ad-apac.doubleclick.net/"], :root c-wiz[jsrenderer="YnuqN"] > div > div > .Rn1jbe, :root a[href*="/servlet/click/zone?"], :root a[href^="http://refpaano.host/"], :root a[href*="/cmd.php?ad="], :root a[href^="http://track.trkvluum.com/"], :root a[href^="http://linksnappy.com/?ref="], :root [src^="/Redirect.a2b?"], :root #atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top, :root a[href*="/adrotate-out.php?"], :root a[href^="https://track.trkinator.com/"], :root div[id^="ad-position-"], :root a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"], :root a[href^="http://liversely.com/"], :root a[href^="http://www.firstclass-download.com/"], :root a[href*="//bongacams7.com/track?"], :root div[id^="advads-"], :root a[href^="http://www.myfreecams.com/?co_id="][href*="&track="], :root a[href^="https://track.afcpatrk.com/"], :root a[href*=".ad-center.com/"], :root a[href*=".udncoeln.com/"], :root a[href*=".trust.zone"], :root #ads > .dose > .dosesingle, :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > div > .vci, :root a[href*="delivery.trafficfabrik.com"], :root .trc_rbox_div .syndicatedItem, :root a[href^="http://www.streamate.com/exports/"], :root [href*="maskip.co/"], :root #center_col > div[style="font-size:14px;margin-right:0;min-height:5px"] > div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff8e7"], :root a[href*=".trck5.com/"], :root a[href*=".smartadserver.com"], :root .commercial-unit-desktop-rhs > div[jscontroller="YD5eo"], :root .__ywvr .__y_item, :root a[href^="https://farm.plista.com/pets"], :root a[href*=".red90121.com/"], :root a[href^="https://playuhd.host/"], :root .mw > #rcnt > #center_col > #taw > #tvcap > .c, :root a[href*=".purple6401.com/"], :root a[href^="http://www.greenmangaming.com/?tap_a="], :root a[href*=".opskln.com/"], :root a[href^="http://z1.zedo.com/"], :root a[href*=".irtyc.com/"], :root div[id^="div_ad_stack_"], :root a[href*=".ichlnk.com/"], :root [href*=".securesafemembers.com"], :root #center_col > #taw > #tvcap > .rscontainer, :root a[href^="http://a63t9o1azf.com/"], :root a[href*=".axdsz.pro/"], :root a[href^="http://secure.hostgator.com/~affiliat/"], :root [onclick^="window.open('http://adultfriendfinder.com/search/"], :root [href*=".revrtb.com/"], :root .mod > .gws-local-promotions__border, :root div[class^="adUnit_"], :root a[href^="https://deliver.tf2www.com/"], :root a[href^="http://spygasm.com/track?"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root [src*="//www.dianomi.com/smartads.epl"], :root a[href*=".adk2x.com/"], :root a[href*=".allsports4you.club"], :root a[href^="https://track.bruceads.com/"], :root div[data-adservice-param-tagid="contentad"], :root #MAIN.ShowTopic > .ad, :root a[href^="https://porngames.adult/?SID="], :root a[href^="http://findersocket.com/"], :root a[href^="https://m.do.co/c/"] > img, :root [href*=".ltroute.com/"], :root div[class*="margin-Advert"], :root #tads + div + .c, :root a[href^="//jsmptjmp.com/"], :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci, :root a[href^="https://financeads.net/tc.php?"], :root #ssmiwdiv[jsdisplay], :root a[href*=".adform.net/"], :root a[href^="http://duckcash.eu/"], :root a[href^="http://www.mobileandinternetadvertising.com/"], :root a[href^="http://join3.bannedsextapes.com/track/"], :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"], :root .GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-, :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author, :root [href*=".jetx.info/"], :root div[id^="cns_ads_"], :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://www.getyourguide.com/?partner_id="], :root [onclick^="window.open('https://www.brazzersnetwork.com/landing/"], :root a[href^="https://vod09197d7.club/"], :root a[href^="http://k2s.cc/pr/"], :root a[href^="http://9nl.es/"], :root #assetsListings[style="display: block;"], :root [onclick^="window.open('window.open('//delivery.trafficfabrik.com/"], :root a[href^="https://keep2share.cc/pr/"], :root a[data-oburl^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://refpa.top/"], :root a[href*="//bongacams.com/track?"], :root a[href^="https://servedbyadbutler.com/"], :root a[href^="https://mob1ledev1ces.com/"], :root a[data-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href^="https://explore.findanswersnow.net/"], :root [id^="adframe_wrap_"], :root a[href^="http://landingpagegenius.com/"], :root a[data-redirect^="http://click.plista.com/pets"], :root .section-subheader > .section-hotel-prices-header, :root [href^="https://go.affiliatexe.com/"], :root a[href^="http://mgid.com/"], :root a[href*=".adsrv.eacdn.com/"] > img, :root [href*="//etracking.pro"], :root a[href^="http://www.fonts.com/BannerScript/"], :root a[href^="http://c.ketads.com/"], :root a[href^="http://6kup12tgxx.com/"], :root a[href^="http://www.badoink.com/go.php?"], :root a[href^="http://www.roboform.com/php/land.php"], :root a[href^="http://online.ladbrokes.com/promoRedirect?"], :root a[href^="//mob1ledev1ces.com/"], :root a[href^="http://liversely.net/"], :root .ra[width="30%"][align="right"] + table[width="70%"][cellpadding="0"], :root a[href^="http://www.coiwqe.site/"], :root iframe[id^="google_ads_frame"], :root a[href^="http://www.bluehost.com/track/"] > img, :root a[data-url^="http://paid.outbrain.com/network/redir?"], :root a[href*="a2g-secure.com"], :root [href^="http://raboninco.com/"], :root a[href^="https://www.passeura.com/"], :root a[href^="http://www.pinkvisualpad.com/?revid="], :root a[href^="https://www.friendlyduck.com/AF_"], :root [href^="http://advertisesimple.info/"], :root a[href^="http://allaptair.club/"], :root [href*="cadsecs.com/"], :root a[href^="http://adserving.unibet.com/"], :root [href*="//trackout.business"], :root #rhs_block .mod > .luhb-div > div[data-async-type="updateHotelBookingModule"], :root a[href^="http://adclick.g.doubleclick.net/"], :root [href*="//mclick.net"], :root a[href^="http://czotra-32.com/"], :root a[href^="https://scurewall.co/"], :root .commercial-unit-desktop-rhs > .iKidV > .Ee92ae + .P2mpm + .hp3sk, :root div[role="navigation"] + c-wiz > div > .kxhcC, :root a[href^="http://www.download-provider.org/"], :root a[href^="https://www.kingsoffetish.com/tour?partner_id="], :root a[href*=".qertewrt.com/"], :root [href*="//doubleclick-net.com"], :root a[href^="http://deloplen.com/afu.php?zoneid="], :root a[href^="//db52cc91beabf7e8.com/"], :root [id*="ScriptRoot"], :root a[href^="http://partners.etoro.com/"], :root [href*=".xiloy.site/"], :root #topstuff > #tads, :root a[href*=".bang.com/"][href*="&aff="], :root [src^="http://api.lanistaads.com/ServeAd?"], :root a[href^="http://webtrackerplus.com/"], :root a[href^="https://ad13.adfarm1.adition.com/"], :root a[href^="http://clickandjoinyourgirl.com/"], :root div[itemtype="http://schema.org/WPAdBlock"], :root a[href^="https://www.nudeidols.com/cams/"], :root a[href*=".xromp.com/landing/click/"], :root #center_col > #res > #topstuff + #search > div > #ires > #rso > #flun, :root [href*=".trackout.business"], :root a[href*=".revimedia.com/"], :root .gbfwa > div[class$="_item"], :root a[href^="https://goraps.com/"], :root [href*=".etracking.pro"], :root a[href*="//refer.ccbill.com/cgi-bin/clicks.cgi"], :root a[href^="http://see-work.info/"], :root .inlineNewsletterSubscription + .inlineNewsletterSubscription div[class$="_item"], :root a[href*=".orange2258.com/"], :root #taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top, :root .plista_widget_belowArticleRelaunch_item[data-type="pet"], :root #main-content > [style="padding:10px 0 0 0 !important;"], :root #center_col > #resultStats + div[style="border:1px solid #dedede;margin-bottom:11px;padding:5px 7px 5px 6px"], :root a[href^="http://get.slickvpn.com/"], :root [data-ad-module], :root [href*=".go2page.net"], :root a[href^="http://hd-plugins.com/download/"], :root a[href^="//voyeurhit.com/cs/"], :root a[href^="http://www.afgr3.com/"], :root [ad-id^="googlead"], :root .ra[align="left"][width="30%"], :root a[href^="https://trackjs.com/?utm_source"], :root AFS-AD, :root #center_col > #\5f Emc, :root a[href^="http://ads2.williamhill.com/redirect.aspx?"], :root a[href^="https://www.mypornstarcams.com/landing/click/"], :root a[href^="https://www.spyoff.com/"], :root AD-TRIPLE-BOX, :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root .icons-rss-feed + .icons-rss-feed div[class$="_item"], :root a[href^="http://aflrm.com/"], :root div[id^="google_dfp_"], :root [href*="get-download.club/"], :root .section-result[data-result-ad-type], :root #mn div[style="position:relative"] > #center_col > div > ._dPg, :root a[href*="//bongacams5.com/track?"], :root FBS-AD, :root a[href*=".clksite.com/"], :root a[href^="http://www.webtrackerplus.com/"], :root .GJJKPX2N1 > .GJJKPX2M1 > .GJJKPX2P4, :root a[href^="http://goldmoney.com/?gmrefcode="], :root a[href^="http://papi.mynativeplatform.com:80/pub2/"], :root LEADERBOARD-AD, :root #mn #center_col > div > h2.spon:first-child + ol:last-child, :root a[href*=".cfm?fp="][href*="&prvtof="], :root a[href*="n47adshostnet.com/"], :root #center_col > #taw > #tvcap > .commercial-unit-desktop-top, :root .plistaList > .plista_widget_underArticle_item[data-type="pet"], :root a[href^="http://servicegetbook.net/"], :root #rhs_block > #mbEnd, :root a[href^="http://cinema.friendscout24.de?"], :root [lazy-ad="lefttop_banner"], :root a[href^="http://www.mrskin.com/tour"], :root .jobs-information-call-to-action + .jobs-information-call-to-action div[class$="_item"], :root a[href^="https://go.hpyjmp.com/"], :root .vi-lb-placeholder[title="ADVERTISEMENT"], :root a[href^="http://www.menaon.com/installs/"], :root a[href^="http://taboola-"][href*="/redirect.php?app.type="], :root .mw > #rcnt > #center_col > #taw > .c, :root .commercial-unit-mobile-top > div[data-pla="1"], :root a[href^="http://api.content.ad/"], :root a[href*=".clkcln.com/"], :root #rhs_block > script + .c._oc._Ve.rhsvw, :root #\5f _mom_ad_12, :root .__zinit .__y_item, :root .ch[onclick="ga(this,event)"], :root .__ywl .__y_item, :root div[id^="div-ads-"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="http://at.atwola.com/"], :root #center_col > #resultStats + #tads, :root .__yinit .__y_item, :root a[href^="https://secure.cbdpure.com/aff/"], :root AMP-AD, :root iframe[src*="mellowads.com"], :root .__y_inner > .__y_item, :root a[href^="https://affiliate.geekbuying.com/gkbaffiliate.php?"], :root #cnt #center_col > #res > #topstuff > .ts, :root a[href^="https://landing.brazzersnetwork.com/"], :root #cnt #center_col > #taw > #tvcap > .c._oc._Lp, :root div[class^="hp-ad-rect-"], :root a[href^="http://dwn.pushtraffic.net/"], :root a[href$="/vghd.shtml"], :root .GFYY1SVD2 > .GFYY1SVC2 > .GFYY1SVF5, :root a[href^="http://affiliates.score-affiliates.com/"], :root a[href^="https://a.adtng.com/"], :root #rhswrapper > #rhssection[border="0"][bgcolor="#ffffff"], :root .Mpopup + #Mad > #MadZone, :root a[href^="http://ads.expekt.com/affiliates/"], :root a[href^="http://www.streamtunerhd.com/signup?"], :root p[id^="div-gpt-ad-"], :root a[href^="http://fsoft4down.com/"], :root a[href*="ad2upapp.com/"], :root a[href*=".fwd28.com/"], :root [lazy-ad="leftbottom_banner"], :root a[href^="https://www.adxtro.com/"], :root a[href^="http://click.payserve.com/"], :root iframe[src^="http://ad.yieldmanager.com/"], :root a[href^="http://pubads.g.doubleclick.net/"], :root a[href^="http://serve.williamhill.com/promoRedirect?"], :root [href*=".mclick.net"], :root #center_col > #taw > #tvcap > .cu-container > .commercial-unit-desktop-top, :root a[href*="//promo-bc.com/track?"], :root a[href^="https://sexsimulator.game/tab/?SID="], :root .rc-cta[data-target], :root #rhs_block > .ts[cellspacing="0"][cellpadding="0"][style="padding:0"], :root div[data-ad-underplayer], :root #mbEnd[cellspacing="0"][cellpadding="0"], :root a[href^="http://3wr110.net/"], :root #header + #content > #left > #rlblock_left, :root .trc_rbox_div .syndicatedItemUB, :root #center_col > #main > .dfrd > .mnr-c > .c._oc._zs, :root a[href^="http://www.seekbang.com/cs/"], :root a[href^="http://syndication.exoclick.com/"], :root a[href^="http://bluehost.com/track/"], :root a[href^="https://squren.com/rotator/?atomid="], :root div[id^="adspot-"], :root #\5f _admvnlb_modal_container, :root a[href^="//40ceexln7929.com/"], :root #center_col > #resultStats + div + #res + #tads, :root a[href^="//88d7b6aa44fb8eb.com/"], :root a[href^="http://www.afgr2.com/"], :root #mn div[style="position:relative"] > #center_col > ._Ak, :root #tadsb[aria-label], :root a[href*="//bongacams2.com/track?"], :root #center_col > #resultStats + #tads + #res + #tads, :root a[href^="//z6naousb.com/"], :root div[id^="ad_bigbox_"], :root #content > #right > .dose > .dosesingle, :root div[data-subscript="Advertising"], :root div[class$="dealnews"] > .dealnews, :root a[href^="http://t.mdn2015x2.com/"], :root a[href^="http://t.wowtrk.com/"], :root div[class^="Ad__container"], :root a[href^="http://adprovider.adlure.net/"], :root div[id^="drudge-column-ads-"], :root a[href^="http://tour.mrskin.com/"], :root a[href^="http://rs-stripe.wsj.com/stripe/redirect"], :root #main_col > #center_col div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff7ed"], :root a[data-nvp*="'trafficUrl':'https://paid.outbrain.com/network/redir?"], :root a[href^="http://www.sex.com/pics/?utm_"], :root a[href^="http://vo2.qrlsx.com/"], :root a[href^="http://engine.newsmaxfeednetwork.com/"], :root a[href^="http://ad.yieldmanager.com/"], :root a[href^="http://www.plus500.com/?id="], :root #flowplayer > div[style="z-index: 208; position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px;"], :root a[href^="https://giftsale.co.uk/?utm_"], :root a[href^="https://syndication.dynsrvtbg.com/splash.php?"] { display: none !important; }</style><style>@charset "UTF-8";
+[vp] .vpw-vlibras-span {
+  font-family: "Open Sans", sans-serif; }
+
+[vp] .vpw-settings {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 40px); }
+  [vp] .vpw-settings .vpw-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    background-color: #003f86;
+    color: white; }
+    [vp] .vpw-settings .vpw-content .vpw-flag {
+      position: absolute;
+      height: 24px;
+      margin-top: -12px;
+      margin-left: 4px;
+      border: none;
+      border-radius: 5px; }
+    [vp] .vpw-settings .vpw-content > .vpw-bar {
+      position: absolute;
+      width: 100%;
+      height: 54px; }
+      [vp] .vpw-settings .vpw-content > .vpw-bar .vpw-title {
+        position: absolute;
+        top: 16px;
+        left: 50px;
+        color: #6481b8;
+        font-size: 12px;
+        font-weight: bold; }
+    [vp] .vpw-settings .vpw-content > ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0 11%;
+      font-family: "Open Sans", sans-serif; }
+      [vp] .vpw-settings .vpw-content > ul li {
+        position: relative;
+        padding: 19px 0;
+        color: white;
+        border-bottom: 0; }
+        [vp] .vpw-settings .vpw-content > ul li .vpw-name {
+          position: absolute;
+          left: 0px;
+          margin-top: -10px;
+          font-size: 14px; }
+        [vp] .vpw-settings .vpw-content > ul li .vpw-percent {
+          float: right;
+          margin-top: -7px;
+          font-size: 11px;
+          color: rgba(255, 255, 255, 0.6);
+          width: 30px;
+          margin-right: -6px;
+          margin-left: -4px;
+          text-align: center; }
+        [vp] .vpw-settings .vpw-content > ul li .arrow-right-opac,
+        [vp] .vpw-settings .vpw-content > ul li .arrow-left-opac {
+          margin-top: -13px;
+          width: 25px;
+          float: right; }
+      [vp] .vpw-settings .vpw-content > ul li:hover {
+        color: #67c8d5; }
+      [vp] .vpw-settings .vpw-content > ul .vpw-position {
+        display: none; }
+      [vp] .vpw-settings .vpw-content > ul .vpw-opacity {
+        display: none; }
+      [vp] .vpw-settings .vpw-content > ul .vpw-localism {
+        padding: 24px 0; }
+        [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-flag {
+          right: 27px;
+          height: 24px; }
+        [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-abbrev {
+          position: absolute;
+          right: 0px;
+          margin-top: -9px;
+          font-size: 14px;
+          font-weight: bold; }
+        [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-arrow {
+          position: absolute;
+          right: 16px;
+          height: 13px;
+          margin-top: -6px; }
+    [vp] .vpw-settings .vpw-content > .vpw-localism {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 7;
+      background-color: white;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 2px; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism:not(.active) {
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: visibility 0s, opacity 0.3s;
+        transition: visibility 0s, opacity 0.3s; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism.active {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transition: visibility 0s, opacity 0.3s;
+        transition: visibility 0s, opacity 0.3s; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-name {
+        position: absolute;
+        margin-top: -7px;
+        margin-left: 9px;
+        font-size: 14px;
+        font-weight: bold; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-national {
+        position: relative;
+        width: calc(33.33%);
+        margin-top: 6px;
+        padding-top: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+        [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-national .vpw-name {
+          color: black;
+          position: relative; }
+        [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-national .vpw-flag {
+          position: relative; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        box-sizing: content-box;
+        padding: 0px 8px 0px 8px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%); }
+        [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions {
+          display: inline-block;
+          position: relative;
+          width: 33.33%;
+          margin-bottom: 1px;
+          padding: 6px 0;
+          margin-top: 1%;
+          cursor: pointer;
+          opacity: 0.5;
+          -webkit-transition: opacity 0.3s;
+          transition: opacity 0.3s; }
+          [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions.selected, [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions:hover {
+            opacity: 1;
+            -webkit-transition: opacity 0.3s;
+            transition: opacity 0.3s; }
+          [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions .vpw-cont {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; }
+          [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions > .vpw-cont .vpw-flag {
+            position: relative;
+            margin: 0; }
+          [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions > .vpw-cont .vpw-name {
+            position: relative;
+            margin: 0 10px 0;
+            color: grey; }
+    [vp] .vpw-settings .vpw-content .vpw-vlibras-logo {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      z-index: 6; }
+      [vp] .vpw-settings .vpw-content .vpw-vlibras-logo .vpw-vlibras-span {
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        bottom: 15%;
+        align-items: center;
+        font-size: 14px; }
+      [vp] .vpw-settings .vpw-content .vpw-vlibras-logo .vpw-logo {
+        width: 100%; }
+  [vp] .vpw-settings > .vpw-wall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5; }
+  [vp] .vpw-settings.active {
+    display: block; }
+    [vp] .vpw-settings.active .vpw-content {
+      left: 0;
+      -webkit-transition: left 0.3s;
+      transition: left 0.3s; }
+    [vp] .vpw-settings.active .vpw-wall {
+      visibility: visible; }
+  [vp] .vpw-settings:not(.active) {
+    display: none; }
+    [vp] .vpw-settings:not(.active) .vpw-content {
+      left: 0;
+      visibility: hidden;
+      -webkit-transition: left 0.3s;
+      transition: left 0.3s; }
+    [vp] .vpw-settings:not(.active) .vpw-wall {
+      visibility: hidden; }
+  [vp] .vpw-settings .vpw-clickable {
+    cursor: pointer; }
+    [vp] .vpw-settings .vpw-clickable:not(:hover) {
+      background-color: inherit;
+      -webkit-transition: 0.12s background-color;
+      transition: 0.12s background-color; }
+    [vp] .vpw-settings .vpw-clickable:hover {
+      -webkit-transition: 0.2s background-color;
+      transition: 0.2s background-color; }
+
+[vp] .vpw-controls-dictionary:not(.vpw-loading-dictionary):before {
+  content: "Dicionário";
+  font-size: 14px;
+  position: absolute;
+  margin-top: -11px; }
+
+[vp] .vpw-controls-dictionary.vpw-loading-dictionary {
+  min-width: 22px;
+  min-height: 22px;
+  margin-top: -17px;
+  position: absolute;
+  border-left: 3px solid rgba(255, 255, 255, 0.2);
+  border-top: 3px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 3px solid white;
+  border-right: 3px solid rgba(255, 255, 255, 0.6);
+  border-style: inset;
+  border-radius: 50%;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 0.8s linear infinite; }
+
+/*@media (min-width: 600px) {
+  .vpw-settings {
+    &.active {
+      visibility: visible;
+      left: 0;
+
+      -webkit-transition: visibility 0s, left 0.3s;
+      transition: visibility 0s, left 0.3s;
+    }
+
+    &:not(.active) {
+      visibility: hidden;
+      left: -220px;
+
+      -webkit-transition: visibility 0.3s, left 0.3s;
+      transition: visibility 0.3s, left 0.3s;
+    }
+
+    .vpw-content {
+      left: -220px;
+      width: 220px;
+
+
+      .vpw-bar {
+        height: 66px;
+
+
+        .vpw-btn-back {
+          width: 30px;
+          height: 30px;
+          margin-top: 18px;
+          margin-left: 18px;
+        }
+
+        .vpw-title {
+          top: 25px;
+          left: 60px;
+          font-size: 1em;
+        }
+      }
+    }
+  }
+}*/
+</style><style>[vp] {
+  /* Hide default HTML checkbox */
+  /* The slider */
+  /* Rounded sliders */ }
+  [vp] .vpw-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 21px;
+    float: right;
+    margin-top: -12px; }
+  [vp] .vpw-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0; }
+  [vp] .vpw-slider-check {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2196F3; }
+  [vp] .vpw-slider-check:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white; }
+  [vp] input:checked + .vpw-slider-check {
+    background-color: #2196F3; }
+  [vp] input:focus + .vpw-slider-check {
+    box-shadow: 0 0 1px #ccc; }
+  [vp] input:checked + .vpw-slider-check:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px); }
+  [vp] .vpw-slider-check.vpw-round {
+    border-radius: 34px; }
+  [vp] .vpw-slider-check.vpw-round:before {
+    border-radius: 50%;
+    top: -3px; }
+</style><style>[vp] .vpw-settings-btn {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  cursor: pointer; }
+  [vp] .vpw-settings-btn .vpw-settings-btn-menu {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 18px;
+    left: 20px; }
+    [vp] .vpw-settings-btn .vpw-settings-btn-menu.active {
+      display: block; }
+  [vp] .vpw-settings-btn .vpw-settings-btn-close {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px; }
+</style><style>[vp] .vpw-info-screen {
+  position: relative;
+  padding: 1em;
+  width: 100%;
+  height: calc(100% - 40px);
+  z-index: 4;
+  background-color: white;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  font-size: 11px;
+  display: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  [vp] .vpw-info-screen.active {
+    display: -webkit-flex;
+    display: flex; }
+  [vp] .vpw-info-screen .vpw-arrow {
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    visibility: hidden; }
+  [vp] .vpw-info-screen .vpw-arrow.active {
+    visibility: visible; }
+  [vp] .vpw-info-screen #vpw-info-tabset {
+    position: relative;
+    top: 0;
+    flex-grow: 4;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    -webkit-align-items: center; }
+  [vp] .vpw-info-screen #vpw-info-main {
+    max-width: 600px;
+    font-family: "Open Sans", sans-serif;
+    flex-direction: column;
+    -webkit-flex-direction: column; }
+    [vp] .vpw-info-screen #vpw-info-main.active {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center; }
+  [vp] .vpw-info-screen #vpw-info-logo img {
+    height: 90px; }
+  [vp] .vpw-info-screen #vpw-info-realizadores {
+    height: 100%;
+    min-width: 230px;
+    width: 50%;
+    flex-direction: column;
+    align-items: stretch;
+    -webkit-flex-direction: column;
+    -webkit-align-items: stretch; }
+    [vp] .vpw-info-screen #vpw-info-realizadores #vpw-realiz {
+      font-size: 20px; }
+    [vp] .vpw-info-screen #vpw-info-realizadores.active {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center; }
+    [vp] .vpw-info-screen #vpw-info-realizadores .vpw-siz {
+      max-width: 55% !important; }
+    [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo {
+      margin-top: -2px;
+      margin: 0.5em 0.35em;
+      min-width: 10%;
+      max-width: 29%;
+      max-height: 15vh; }
+      [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo .vpw-short-ver {
+        max-width: none;
+        min-height: 16px; }
+    [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group {
+      display: flex;
+      padding: 0.5% 2%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      -webkit-flex-direction: row;
+      -webkit-flex-wrap: wrap;
+      -webkit-align-items: center;
+      -webkit-justify-content: space-around;
+      line-height: 1.1; }
+      [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group .p-separator {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 118px; }
+      [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group .format-text {
+        margin: 0px; }
+  [vp] .vpw-info-screen .vpw-info-tab {
+    flex-grow: 3;
+    -webkit-flex-grow: 3;
+    display: none; }
+    [vp] .vpw-info-screen .vpw-info-tab .vpw-info-tab-label {
+      position: absolute;
+      top: 0%;
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif; }
+    [vp] .vpw-info-screen .vpw-info-tab .vpw-info-tab-label-two {
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+      margin-top: 10px; }
+  [vp] .vpw-info-screen .vpw-info-tab.active {
+    display: block; }
+  [vp] .vpw-info-screen #vpw-info-meta p {
+    margin: 0.5em 0 0; }
+  [vp] .vpw-info-screen #vpw-info-meta a {
+    text-decoration: none; }
+  [vp] .vpw-info-screen .vpw-info-bullet {
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: ""; }
+  [vp] .vpw-info-screen #vpw-info-tab-bullets {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    cursor: pointer; }
+  [vp] .vpw-info-screen .vpw-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    z-index: 4; }
+    [vp] .vpw-info-screen .vpw-close-btn img.icon {
+      width: 34px;
+      height: 34px; }
+
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  [vp] #vpw-info-realizadores .vpw-logo {
+    margin: 0.5em 0.35em;
+    min-width: 10%;
+    max-width: 50%;
+    max-height: 18vh; } }
+
+@media only screen and (max-height: 360px) {
+  [vp] #vpw-info-main {
+    font-size: 0.84em; } }
+</style><style>[vp] .vpw-dictionary {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: calc(100% - 40px);
+  min-width: 300px;
+  min-height: 300px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white; }
+  [vp] .vpw-dictionary.active {
+    display: block; }
+  [vp] .vpw-dictionary .vpw-panel {
+    position: relative;
+    height: 114px;
+    background-color: white; }
+    [vp] .vpw-dictionary .vpw-panel .vpw-bar {
+      text-align: center;
+      padding-top: 20px; }
+    [vp] .vpw-dictionary .vpw-panel .vpw-search {
+      position: absolute;
+      width: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 20px; }
+      [vp] .vpw-dictionary .vpw-panel .vpw-search input {
+        position: absolute;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px 10px 10px 10px;
+        border-radius: 6px;
+        border: 1px solid #DDD;
+        outline: none; }
+        [vp] .vpw-dictionary .vpw-panel .vpw-search input:focus {
+          border: 1px solid #00ddf9; }
+      [vp] .vpw-dictionary .vpw-panel .vpw-search .vpw-icon {
+        display: block;
+        position: relative; }
+        [vp] .vpw-dictionary .vpw-panel .vpw-search .vpw-icon img {
+          position: absolute;
+          height: 24px;
+          width: 24px;
+          top: 6px;
+          right: 7px; }
+  [vp] .vpw-dictionary .vpw-dict-container {
+    position: absolute;
+    width: 80%;
+    height: 68%;
+    left: 50%;
+    transform: translateX(-50%); }
+    [vp] .vpw-dictionary .vpw-dict-container ul {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-y: scroll;
+      list-style-type: none; }
+      [vp] .vpw-dictionary .vpw-dict-container ul::-webkit-scrollbar {
+        width: 8px; }
+      [vp] .vpw-dictionary .vpw-dict-container ul::-webkit-scrollbar-track {
+        background-color: #DDD; }
+      [vp] .vpw-dictionary .vpw-dict-container ul::-webkit-scrollbar-thumb {
+        background-color: #BCBCBC; }
+      [vp] .vpw-dictionary .vpw-dict-container ul li {
+        font-size: 14px;
+        cursor: pointer; }
+        [vp] .vpw-dictionary .vpw-dict-container ul li:hover {
+          background-color: #EAEAEA;
+          -webkit-transition: brackground-color 0.3s;
+          transition: brackground-color 0.4s; }
+        [vp] .vpw-dictionary .vpw-dict-container ul li.margin {
+          height: 114px; }
+        [vp] .vpw-dictionary .vpw-dict-container ul li:not(.margin) {
+          padding: 9px 10px 9px 10px; }
+</style><style>/*! nouislider - 8.5.1 - 2016-04-24 16:00:30 */
+.noUi-target, .noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.noUi-target {
+  position: relative;
+  direction: ltr; }
+
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1; }
+
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+.noUi-handle {
+  position: relative;
+  z-index: 1; }
+
+.noUi-stacking .noUi-handle {
+  z-index: 10; }
+
+.noUi-state-tap .noUi-origin {
+  -webkit-transition: left .3s,top .3s;
+  transition: left .3s,top .3s; }
+
+.noUi-state-drag * {
+  cursor: inherit !important; }
+
+.noUi-base, .noUi-handle {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.noUi-horizontal {
+  height: 18px; }
+
+.noUi-horizontal .noUi-handle {
+  width: 34px;
+  height: 28px;
+  left: -17px;
+  top: -6px; }
+
+.noUi-vertical {
+  width: 18px; }
+
+.noUi-vertical .noUi-handle {
+  width: 28px;
+  height: 34px;
+  left: -6px;
+  top: -17px; }
+
+.noUi-background {
+  background: #FAFAFA;
+  box-shadow: inset 0 1px 1px #f0f0f0; }
+
+.noUi-connect {
+  background: #3FB8AF;
+  box-shadow: inset 0 0 3px rgba(51, 51, 51, 0.45);
+  -webkit-transition: background 450ms;
+  transition: background 450ms; }
+
+.noUi-origin {
+  border-radius: 2px; }
+
+.noUi-target {
+  border-radius: 4px;
+  border: 1px solid #D3D3D3;
+  box-shadow: inset 0 1px 1px #F0F0F0,0 3px 6px -5px #BBB; }
+
+.noUi-target.noUi-connect {
+  box-shadow: inset 0 0 3px rgba(51, 51, 51, 0.45), 0 3px 6px -5px #BBB; }
+
+.noUi-draggable {
+  cursor: w-resize; }
+
+.noUi-vertical .noUi-draggable {
+  cursor: n-resize; }
+
+.noUi-handle {
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  background: #FFF;
+  cursor: default;
+  box-shadow: inset 0 0 1px #FFF,inset 0 1px 7px #EBEBEB,0 3px 6px -3px #BBB; }
+
+.noUi-active {
+  box-shadow: inset 0 0 1px #FFF,inset 0 1px 7px #DDD,0 3px 6px -3px #BBB; }
+
+.noUi-handle:after, .noUi-handle:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 14px;
+  width: 1px;
+  background: #E8E7E6;
+  left: 14px;
+  top: 6px; }
+
+.noUi-handle:after {
+  left: 17px; }
+
+.noUi-vertical .noUi-handle:after, .noUi-vertical .noUi-handle:before {
+  width: 14px;
+  height: 1px;
+  left: 6px;
+  top: 14px; }
+
+.noUi-vertical .noUi-handle:after {
+  top: 17px; }
+
+[disabled] .noUi-connect, [disabled].noUi-connect {
+  background: #B8B8B8; }
+
+[disabled] .noUi-handle, [disabled].noUi-origin {
+  cursor: not-allowed; }
+
+.noUi-pips, .noUi-pips * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.noUi-pips {
+  position: absolute;
+  color: #999; }
+
+.noUi-value {
+  position: absolute;
+  text-align: center; }
+
+.noUi-value-sub {
+  color: #ccc;
+  font-size: 10px; }
+
+.noUi-marker {
+  position: absolute;
+  background: #CCC; }
+
+.noUi-marker-large, .noUi-marker-sub {
+  background: #AAA; }
+
+.noUi-pips-horizontal {
+  padding: 10px 0;
+  height: 80px;
+  top: 100%;
+  left: 0;
+  width: 100%; }
+
+.noUi-value-horizontal {
+  -webkit-transform: translate3d(-50%, 50%, 0);
+  transform: translate3d(-50%, 50%, 0); }
+
+.noUi-marker-horizontal.noUi-marker {
+  margin-left: -1px;
+  width: 2px;
+  height: 5px; }
+
+.noUi-marker-horizontal.noUi-marker-sub {
+  height: 10px; }
+
+.noUi-marker-horizontal.noUi-marker-large {
+  height: 15px; }
+
+.noUi-pips-vertical {
+  padding: 0 10px;
+  height: 100%;
+  top: 0;
+  left: 100%; }
+
+.noUi-value-vertical {
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  padding-left: 25px; }
+
+.noUi-marker-vertical.noUi-marker {
+  width: 5px;
+  height: 2px;
+  margin-top: -1px; }
+
+.noUi-marker-vertical.noUi-marker-sub {
+  width: 10px; }
+
+.noUi-marker-vertical.noUi-marker-large {
+  width: 15px; }
+
+.noUi-tooltip {
+  display: block;
+  position: absolute;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  background: #fff;
+  padding: 5px;
+  text-align: center; }
+
+.noUi-horizontal .noUi-handle-lower .noUi-tooltip {
+  top: -32px; }
+
+.noUi-horizontal .noUi-handle-upper .noUi-tooltip {
+  bottom: -32px; }
+
+.noUi-vertical .noUi-handle-lower .noUi-tooltip {
+  left: 120%; }
+
+.noUi-vertical .noUi-handle-upper .noUi-tooltip {
+  right: 120%; }
+</style><style>[vp] .vpw-controls {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  width: calc(100% - 10px);
+  height: 60px;
+  background-size: 100% 100%;
+  background: white;
+  width: 100%; }
+  [vp] .vpw-controls .vpw-controls-subtitles, [vp] .vpw-controls .vpw-controls-slider {
+    margin: 0 9px;
+    cursor: pointer; }
+  [vp] .vpw-controls .vpw-controls-play .vpw-component-play {
+    display: block;
+    margin: 0 8.5px;
+    cursor: pointer; }
+  [vp] .vpw-controls .vpw-controls-play .vpw-component-pause {
+    display: none; }
+  [vp] .vpw-controls .vpw-controls-play .vpw-component-restart {
+    display: none; }
+  [vp] .vpw-controls.vpw-playing .vpw-controls-play .vpw-component-play {
+    display: none; }
+  [vp] .vpw-controls.vpw-playing .vpw-controls-play .vpw-component-pause {
+    display: block;
+    margin: 0 11px;
+    cursor: pointer; }
+  [vp] .vpw-controls.vpw-playing .vpw-controls-play .vpw-component-restart {
+    display: none; }
+  [vp] .vpw-controls.vpw-stopped .vpw-controls-play .vpw-component-play {
+    display: none; }
+  [vp] .vpw-controls.vpw-stopped .vpw-controls-play .vpw-component-pause {
+    display: none; }
+  [vp] .vpw-controls.vpw-stopped .vpw-controls-play .vpw-component-restart {
+    display: block;
+    margin: 0 2px;
+    cursor: pointer; }
+  [vp] .vpw-controls.vpw-subtitles .vpw-controls-subtitles .vpw-legenda-habilitar {
+    display: block; }
+  [vp] .vpw-controls.vpw-subtitles .vpw-controls-subtitles .vpw-legenda-desabilitar {
+    display: none; }
+  [vp] .vpw-controls .vpw-controls-subtitles .vpw-legenda-habilitar {
+    display: none; }
+  [vp] .vpw-controls .vpw-controls-subtitles .vpw-legenda-desabilitar {
+    display: block; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */ }
+  100% {
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg);
+    /* Firefox 16+, IE 10+, Opera */ } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */ }
+  100% {
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg);
+    /* Firefox 16+, IE 10+, Opera */ } }
+
+[vp] .vpw-speed-default {
+  border: 1px solid grey;
+  border-radius: 3px 3px 3px 3px;
+  padding: 3px 4px;
+  height: 100%;
+  color: grey;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif; }
+
+[vp] .vpw-img-default {
+  display: none;
+  padding: 2px;
+  padding-left: 2.2px;
+  cursor: pointer; }
+
+[vp] .vpw-border-default {
+  display: none;
+  border: 1px solid #999999;
+  border-radius: 0px 0px 3px 3px; }
+
+[vp] .vpw-elem-speed {
+  display: none;
+  position: absolute;
+  bottom: 22px;
+  cursor: pointer; }
+
+[vp] .vpw-block-speed {
+  list-style-type: none;
+  background-color: #003F86;
+  color: white;
+  font-size: 10px;
+  width: 25.5px;
+  text-align: center; }
+
+[vp] .vpw-block-speed:hover {
+  color: #67C8D5; }
+
+[vp] .vpw-controls-speed {
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+[vp] .vpw-controls-speed-number {
+  width: 25.5px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif; }
+
+[vp] .vpw-block-speed-3 {
+  border-radius: 5px 5px 0px 0px; }
+
+[vp] .vpw-controls-slider {
+  -webkit-appearance: none;
+  width: 50%;
+  margin: 2.5px 0;
+  height: 7px;
+  background-color: transparent; }
+  [vp] .vpw-controls-slider .vpw-slider {
+    width: 100%;
+    height: 7px; }
+    [vp] .vpw-controls-slider .vpw-slider.noUi-target {
+      box-shadow: none;
+      border: 0; }
+    [vp] .vpw-controls-slider .vpw-slider.noUi-connect {
+      background-color: #003F86; }
+    [vp] .vpw-controls-slider .vpw-slider .noUi-background {
+      background-color: #B8B8B8;
+      box-shadow: none; }
+    [vp] .vpw-controls-slider .vpw-slider .noUi-origin {
+      border-radius: 1px; }
+    [vp] .vpw-controls-slider .vpw-slider .noUi-handle {
+      width: 0px;
+      height: 0px;
+      left: -8px;
+      top: -8px;
+      border-radius: 50%; }
+    [vp] .vpw-controls-slider .vpw-slider .noUi-handle:after, [vp] .vpw-controls-slider .vpw-slider .noUi-handle:before {
+      display: none; }
+</style><style>[vp] .vpw-message-box {
+  top: -5em;
+  left: 0;
+  width: 100%;
+  padding: 1em;
+  font-size: 13px;
+  word-wrap: break-word;
+  color: #000;
+  opacity: 0;
+  -moz-transition: all .15s ease .15s;
+  -webkit-transition: all .15s ease .15s;
+  transition: all .15s ease .15s;
+  -moz-box-shadow: 0px 2px 5px #888888;
+  -webkit-box-shadow: 0px 2px 5px #888888;
+  box-shadow: 0px 2px 5px #888888;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif; }
+  [vp] .vpw-message-box.active {
+    top: 0;
+    opacity: 1; }
+  [vp] .vpw-message-box.info {
+    background-color: #003F86;
+    color: white; }
+  [vp] .vpw-message-box.warning {
+    background-color: #003F86;
+    color: white; }
+  [vp] .vpw-message-box.success {
+    background-color: #003F86;
+    color: white; }
+  [vp] .vpw-message-box.default {
+    background-color: #003F86;
+    color: white; }
+  [vp] .vpw-message-box a {
+    color: inherit; }
+</style><style>[vp] .vpw-box {
+  width: calc(100%);
+  height: 40px;
+  font-size: 1em;
+  color: #000;
+  opacity: 1;
+  position: relative;
+  background-color: #003F86;
+  color: #ffffff;
+  background-size: 100% 100%;
+  z-index: 2; }
+  [vp] .vpw-box .vpw-mes {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px !important;
+    font-family: 'Open Sans', sans-serif; }
+</style><style>[vp] .vpw-btn-close {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 7;
+  cursor: pointer; }
+  [vp] .vpw-btn-close.active {
+    display: block; }
+  [vp] .vpw-btn-close .vpw-img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 37.92px;
+    height: 37.92px;
+    right: 5px; }
+</style><style>[vp] [vp-rate-button] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  bottom: 60px;
+  z-index: 2;
+  visibility: hidden;
+  max-width: 0;
+  opacity: 0;
+  transition: max-width 0s, visibility 0s, opacity 0.4s; }
+  [vp] [vp-rate-button] .vp-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    margin-bottom: 20px;
+    z-index: 1;
+    cursor: pointer; }
+    [vp] [vp-rate-button] .vp-button img {
+      width: 43px;
+      margin-right: -13px;
+      margin-bottom: -13px;
+      max-width: none; }
+  [vp] [vp-rate-button].vp-enabled {
+    z-index: 2;
+    visibility: visible;
+    max-width: 100%;
+    opacity: 1; }
+</style><style>[vp] [vp-rate-box] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  bottom: 68px;
+  overflow: hidden;
+  z-index: 2; }
+  [vp] [vp-rate-box] .vp-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.96);
+    max-height: 0;
+    transform: translateY(69px);
+    transition: max-height 0s, transform 0.4s linear 0.05s; }
+    [vp] [vp-rate-box] .vp-container .vp-text {
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: #003f86; }
+    [vp] [vp-rate-box] .vp-container .vp-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 10px; }
+      [vp] [vp-rate-box] .vp-container .vp-buttons .vp-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 13px;
+        font-weight: bold;
+        color: #545454;
+        cursor: pointer; }
+        [vp] [vp-rate-box] .vp-container .vp-buttons .vp-button:not(:last-child) {
+          margin-right: 22px; }
+        [vp] [vp-rate-box] .vp-container .vp-buttons .vp-button img {
+          height: 22px;
+          margin-right: 6px; }
+  [vp] [vp-rate-box].vp-enabled {
+    z-index: 4; }
+    [vp] [vp-rate-box].vp-enabled .vp-container {
+      max-height: 100%;
+      transform: translateY(0);
+      transition: transform 0.4s, max-height 0s linear 0.4s; }
+</style><style>[vp] [vp-suggestion-button] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  bottom: 68px;
+  z-index: 2; }
+  [vp] [vp-suggestion-button] .vp-bounderies {
+    width: 100%;
+    overflow: hidden; }
+    [vp] [vp-suggestion-button] .vp-bounderies .vp-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: rgba(255, 255, 255, 0.96);
+      z-index: 1;
+      transform: translateY(69px);
+      transition: transform 0.4s;
+      transition-delay: 0.4s; }
+      [vp] [vp-suggestion-button] .vp-bounderies .vp-container .vp-open-screen-button {
+        margin-bottom: 16px; }
+  [vp] [vp-suggestion-button] .vp-button-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.4s; }
+    [vp] [vp-suggestion-button] .vp-button-container .vp-close-button {
+      position: absolute;
+      bottom: -13px; }
+  [vp] [vp-suggestion-button].vp-enabled {
+    z-index: 4; }
+    [vp] [vp-suggestion-button].vp-enabled .vp-container {
+      transform: translateY(0);
+      transition-delay: 0s; }
+    [vp] [vp-suggestion-button].vp-enabled .vp-button-container {
+      opacity: 1;
+      transition-delay: 0.4s; }
+</style><style>[vp] [vp-suggestion-screen] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 16px;
+  background-color: white;
+  z-index: 3;
+  left: 100%;
+  transition: left 0.4s ease-in; }
+  [vp] [vp-suggestion-screen] .vp-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #003f86; }
+  [vp] [vp-suggestion-screen] .vp-text {
+    display: none;
+    flex: 1;
+    align-self: stretch;
+    margin-top: 10px;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 8px 10px 6px;
+    font-size: 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: #EFEFF2; }
+  [vp] [vp-suggestion-screen] .vp-send-button {
+    margin-top: 14px; }
+  [vp] [vp-suggestion-screen] .vp-close-button {
+    margin-top: 8px; }
+  [vp] [vp-suggestion-screen].vp-enabled {
+    left: 0;
+    transition: left 0.4s ease-out 0.8s; }
+</style><style>[vp] [vp-change-avatar] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  z-index: 2;
+  visibility: hidden;
+  max-width: 100%;
+  opacity: 1;
+  transition: max-width 0s, visibility 0s, opacity 0.4s;
+  left: 13px;
+  top: 50px; }
+  [vp] [vp-change-avatar] .vp-button-change-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.45); }
+    [vp] [vp-change-avatar] .vp-button-change-avatar .change-avatar-female {
+      display: block;
+      width: 15px;
+      margin-right: 1px;
+      filter: brightness(0) invert(1); }
+    [vp] [vp-change-avatar] .vp-button-change-avatar .change-avatar-male {
+      display: none;
+      width: 16px;
+      margin-left: 1px;
+      filter: brightness(0) invert(1); }
+  [vp] [vp-change-avatar].vp-disabled {
+    visibility: visible; }
+</style><style>[vp] [vp-blue-button] {
+  padding: 7px 16px;
+  border-radius: 6px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #003f86;
+  cursor: pointer; }
+
+[vp] [vp-close-button] {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  background-color: #b3b3b3;
+  cursor: pointer; }
+  [vp] [vp-close-button] img {
+    width: 100%; }
+
+#gameContainer {
+  background: #ebebeb !important; }
+</style><style>[vw] [vw-access-button] {
+  display: none;
+  width: 140px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px 0px 0px -100px;
+  max-width: none; }
+  [vw] [vw-access-button].active {
+    display: block; }
+  [vw] [vw-access-button] .access-button {
+    width: 27%;
+    float: right; }
+  [vw] [vw-access-button] span {
+    font-size: 13px;
+    color: #004088; }
+  [vw] [vw-access-button] .access-button:hover + .pop-up {
+    width: 68%; }
+  [vw] [vw-access-button] .pop-up {
+    float: right;
+    width: 0%;
+    margin-right: 6px;
+    -webkit-transition: width 2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s; }
+  [vw] [vw-access-button] .pop-up.left {
+    float: left !important;
+    margin-right: 0px; }
+  [vw] [vw-access-button] .access-button.left {
+    float: left !important;
+    margin-right: 6px; }
+</style><style>.vw-links {
+  top: -100px;
+  left: -100px;
+  position: absolute; }
+  .vw-links .vw-tooltip {
+    position: relative;
+    opacity: 1; }
+    .vw-links .vw-tooltip__item {
+      text-align: center;
+      position: absolute;
+      min-width: 123px;
+      padding: 8px;
+      visibility: hidden;
+      opacity: 0;
+      background: white;
+      transition: all 0.25s cubic-bezier(0, 0, 0.2, 1);
+      color: #484848;
+      border: 1px solid #cecece;
+      border-radius: 3px;
+      font-weight: 500;
+      box-shadow: 0 2px 1px #bcbcbc;
+      z-index: 4; }
+      .vw-links .vw-tooltip__item:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid; }
+    .vw-links .vw-tooltip__initiator {
+      cursor: pointer;
+      z-index: 5; }
+    .vw-links .vw-tooltip .vw-tooltip__item {
+      top: calc(100% + 1em);
+      left: 50%;
+      transform: translate3d(-50%, -15px, 0); }
+      .vw-links .vw-tooltip .vw-tooltip__item:after {
+        top: -0.5em;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+        border-width: 0 0.5em 0.5em 0.5em;
+        border-color: transparent transparent white transparent;
+        -webkit-filter: drop-shadow(1px 2px 1px #bcbcbc);
+        filter: drop-shadow(1px -1px 1px #bcbcbc); }
+    .vw-links .vw-tooltip.active > .vw-tooltip__item {
+      transform: translate3d(-50%, 0, 0);
+      visibility: visible;
+      opacity: 1; }
+
+[vw].maximize [vw-plugin-wrapper] {
+  width: 100%;
+  height: 100% !important;
+  max-height: initial !important; }
+
+[vw].left [vw-plugin-wrapper] {
+  float: left; }
+
+[vw] [vw-plugin-wrapper] {
+  display: none;
+  width: 300px;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+  background: white;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(121, 76, 76, 0.15);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.15); }
+  [vw] [vw-plugin-wrapper].active {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 450px;
+    max-width: 100%;
+    overflow: hidden;
+    min-height: 100%; }
+</style><style>[vw] {
+  /* HTML5 display-role reset for older browsers */ }
+  [vw] html, [vw] body, [vw] div, [vw] span, [vw] applet, [vw] object, [vw] iframe,
+  [vw] h1, [vw] h2, [vw] h3, [vw] h4, [vw] h5, [vw] h6, [vw] p, [vw] blockquote, [vw] pre,
+  [vw] a, [vw] abbr, [vw] acronym, [vw] address, [vw] big, [vw] cite, [vw] code,
+  [vw] del, [vw] dfn, [vw] em, [vw] img, [vw] ins, [vw] kbd, [vw] q, [vw] s, [vw] samp,
+  [vw] small, [vw] strike, [vw] strong, [vw] sub, [vw] sup, [vw] tt, [vw] var,
+  [vw] b, [vw] u, [vw] i, [vw] center,
+  [vw] dl, [vw] dt, [vw] dd, [vw] ol, [vw] ul, [vw] li,
+  [vw] fieldset, [vw] form, [vw] label, [vw] legend,
+  [vw] table, [vw] caption, [vw] tbody, [vw] tfoot, [vw] thead, [vw] tr, [vw] th, [vw] td,
+  [vw] article, [vw] aside, [vw] canvas, [vw] details, [vw] embed,
+  [vw] figure, [vw] figcaption, [vw] footer, [vw] header, [vw] hgroup,
+  [vw] menu, [vw] nav, [vw] output, [vw] ruby, [vw] section, [vw] summary,
+  [vw] time, [vw] mark, [vw] audio, [vw] video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block; }
+  [vw] article, [vw] aside, [vw] details, [vw] figcaption, [vw] figure,
+  [vw] footer, [vw] header, [vw] hgroup, [vw] menu, [vw] nav, [vw] section {
+    display: block; }
+  [vw] body {
+    line-height: 1; }
+  [vw] ol, [vw] ul {
+    list-style: none; }
+  [vw] blockquote, [vw] q {
+    quotes: none; }
+  [vw] blockquote:before, [vw] blockquote:after,
+  [vw] q:before, [vw] q:after {
+    content: '';
+    content: none; }
+  [vw] table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+</style><style>@media (max-width: 450px) {
+  div[vw] canvas {
+    min-height: unset !important;
+    min-width: unset !important;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -ms-filter: blur(0px);
+    -o-filter: blur(0px);
+    filter: blur(0px);
+    min-height: calc(0.35 * 680px) !important;
+    min-width: calc(0.35 * 420px) !important; }
+  div[vw] [vw-plugin-wrapper].active {
+    height: 358px !important;
+    width: 210px !important; }
+  #gameContainer {
+    display: flex !important;
+    justify-content: center !important;
+    top: -75px !important;
+    left: -90px !important;
+    width: 100% !important;
+    height: 70% !important; }
+  [vp] [vp-controls] {
+    left: 36% !important;
+    bottom: 20% !important;
+    background: white; }
+  [vp] .vpw-controls-slider {
+    width: 27% !important; }
+  [vp] .vpw-box .vpw-mes {
+    left: 36% !important;
+    font-size: 12px !important; }
+  [vp] .vpw-settings-btn .vpw-settings-btn-close,
+  [vp] .vpw-btn-close .vpw-img {
+    right: 100px; }
+  [vp] [vp-rate-box].vp-enabled .vp-container {
+    margin-right: 70px;
+    margin-bottom: 80px; }
+  [vp] [vp-rate-button] .vp-button {
+    margin-right: 110px;
+    margin-bottom: 130px; }
+  [vp] [vp-rate-button] .vp-button img {
+    width: 32px;
+    margin-bottom: -37px;
+    margin-right: -14px; }
+  [vp] .vpw-message-box {
+    font-size: 0.7em; }
+    [vp] .vpw-message-box .vpw-message {
+      margin-left: 10px;
+      margin-right: 93px;
+      margin-bottom: 3px; }
+  [vp] .vpw-settings .vpw-content .vpw-vlibras-logo {
+    left: 39%;
+    bottom: 125px; }
+  [vp] .vpw-settings .vpw-content > ul {
+    margin-left: -20px; }
+  [vp] .vpw-settings .vpw-content > ul li .vpw-name {
+    font-size: 12px; }
+  [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-flag {
+    right: 88px;
+    height: 24px; }
+  [vp] .vpw-switch {
+    width: 48px;
+    height: 15px;
+    margin-top: -10px;
+    right: 64px; }
+  [vp] .vpw-slider-check.vpw-round:before {
+    top: -3px; }
+  [vp] .vpw-slider-check:before {
+    height: 21px;
+    width: 20px;
+    left: -20;
+    bottom: 4px; }
+  [vp] .vpw-settings .vpw-content .vpw-vlibras-logo .vpw-logo {
+    width: 51%;
+    margin-left: 32px; }
+  [vp] .vpw-settings .vpw-content .vpw-vlibras-logo .vpw-vlibras-span {
+    left: 44%;
+    bottom: 5%; }
+  [vp] .vpw-settings .vpw-content .vpw-vlibras-logo {
+    left: 39%;
+    transform: translateX(-50%);
+    bottom: 125px; }
+  [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-abbrev {
+    right: 65px; }
+  [vp] .vpw-controls-dictionary:not(.vpw-loading-dictionary):before {
+    font-size: 12px; }
+  [vp] .vpw-info-screen #vpw-info-tab-bullets {
+    right: 47px;
+    bottom: 100px; }
+  [vp] .vpw-info-screen .vpw-arrow-right.active {
+    right: 94px;
+    position: absolute;
+    top: 137px;
+    z-index: 4; }
+  [vp] .vpw-info-screen .vpw-arrow-left.active {
+    right: initial;
+    position: absolute;
+    top: 137px;
+    z-index: 4; }
+  [vp] .vpw-info-screen #vpw-info-main.active {
+    font-size: 0.7125em;
+    margin-right: 99px;
+    margin-bottom: 136px; }
+  [vp] .vpw-info-screen .vpw-info-tab .vpw-info-tab-label {
+    margin-top: -8px;
+    font-size: 14px; }
+  [vp] .vpw-info-screen .vpw-info-tab .vpw-info-tab-label-two {
+    font-size: 14px;
+    margin-top: 6px; }
+  [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo.ufpb {
+    max-width: 20%; }
+  [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group.text {
+    display: block; }
+  [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group.logo1 {
+    max-width: 70%; }
+  [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group.logo2 {
+    max-width: 86%; }
+  [vp] .vpw-info-screen #vpw-info-realizadores.active {
+    font-size: 0.8125em;
+    margin-right: 81px;
+    margin-bottom: 113px; }
+  [vp] .vpw-settings .vpw-content .vpw-flag {
+    height: 18px; }
+  [vp] .vpw-settings
+.vpw-content
+> .vpw-localism
+.vpw-regions
+> .vpw-container-regions {
+    margin-top: -1%;
+    margin-bottom: -2px; }
+  [vp] .vpw-settings .vpw-content > .vpw-localism {
+    width: 71%; }
+  [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions {
+    left: -3px !important; }
+  [vp] .vpw-settings .vpw-content > ul .vpw-opacity {
+    margin-right: 56px; }
+  [vp] .vpw-dictionary .vpw-dict-container {
+    width: 64%;
+    height: 44%;
+    left: 44%; }
+  [vp] .vpw-bar .vpw-title {
+    margin-right: 40px; }
+  [vp] .vpw-dictionary .vpw-panel .vpw-search input {
+    width: 73%;
+    left: 39%; }
+  [vp] .vpw-dictionary .vpw-panel .vpw-search .vpw-icon img {
+    right: 70px; }
+  [vp] [vp-dictionary] {
+    right: 18px !important; }
+  [vp] .vpw-dictionary .vpw-dict-container ul li:not(.margin) {
+    padding: 5px; }
+  [vp] [vp-suggestion-button].vp-enabled {
+    right: 40px;
+    bottom: 150px !important; }
+  [vp] [vp-suggestion-screen] {
+    width: 72%;
+    height: 60%;
+    top: 41px; }
+  [vp] [vp-change-avatar] {
+    left: 9px;
+    top: 265px; }
+    [vp] [vp-change-avatar] .vp-button-change-avatar {
+      width: 30px;
+      height: 30px; }
+      [vp] [vp-change-avatar] .vp-button-change-avatar .change-avatar-female {
+        width: 15px; }
+      [vp] [vp-change-avatar] .vp-button-change-avatar .change-avatar-male {
+        width: 15px; } }
+
+div[vw] {
+  position: fixed;
+  max-width: 95vw;
+  right: 0;
+  top: 60%;
+  margin-top: -32vh;
+  z-index: 99999999;
+  display: none;
+  font-family: Arial;
+  color: #000;
+  line-height: 1.3; }
+  div[vw].enabled {
+    display: block; }
+  div[vw].active {
+    margin-top: -285px; }
+  div[vw].maximize {
+    top: 6vh;
+    left: 6vh;
+    right: 6vh;
+    bottom: 6vh;
+    max-width: initial;
+    margin-top: 0; }
+  div[vw].left {
+    left: 0;
+    right: initial; }
+  div[vw] #gameContainer {
+    position: absolute !important;
+    top: -25px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto !important;
+    min-height: calc(0.7 * 450px);
+    min-width: calc(0.9 * 300px);
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 0px;
+    background: none !important; }
+    div[vw] #gameContainer canvas {
+      min-height: calc(0.7 * 450px);
+      min-width: calc(0.9 * 300px);
+      height: 100%;
+      width: 100%;
+      -webkit-filter: blur(0px);
+      -moz-filter: blur(0px);
+      -ms-filter: blur(0px);
+      -o-filter: blur(0px);
+      filter: blur(0px); }
+  div[vw] [vp] {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-width: 300px;
+    min-height: 450px;
+    z-index: 1;
+    overflow: hidden; }
+    div[vw] [vp] [vp-message-box] {
+      position: absolute;
+      z-index: 5; }
+    div[vw] [vp] [vp-info-screen] {
+      z-index: 3; }
+      div[vw] [vp] [vp-info-screen] #info-text {
+        font-size: 1em !important; }
+      div[vw] [vp] [vp-info-screen] #info-realizadores {
+        font-size: 11px !important; }
+    div[vw] [vp] [vp-controls] {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0%;
+      max-width: 900px;
+      z-index: 2; }
+    div[vw] [vp] [vp-settings-btn] {
+      z-index: 2; }
+    div[vw] [vp] [vp-dictionary] {
+      z-index: 8; }
+    div[vw] [vp] [vp-rate-box] {
+      bottom: 58px; }
+    div[vw] [vp] [vp-suggestion-button].vp-enabled,
+    div[vw] [vp] [vp-suggestion-button] {
+      bottom: 58px; }
+    div[vw] [vp] [vp-suggestion-screen] {
+      top: 41px; }
+
+.vw-text:hover {
+  background-color: rgba(0, 63, 134, 0.2);
+  color: #000;
+  cursor: pointer; }
+
+.vw-text-active {
+  background-color: rgba(30, 63, 134, 0.2);
+  color: #000; }
+  </style>

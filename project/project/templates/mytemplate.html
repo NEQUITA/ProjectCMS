@@ -1,0 +1,201 @@
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+{% load cms_tags %}
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/img/favicons/logoCECANE.svg' %}">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>{% page_attribute 'page_title' %}</title>
+
+        <link rel="stylesheet" href="{% static 'assets/css/style.css'%}" type="text/css" title="normal">
+        <link rel="stylesheet" href="{% static 'assets/css/mycss.css'%}" type="text/css" title="normal">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+        {% render_block "css" %}
+    </head>
+    <body>
+        {% cms_toolbar %}
+        <main class="main" id="top">
+            <div id="barra-brasil"><div id="wrapper-barra-brasil"><div class="brasil-flag"><a href="https://gov.br/" class="link-barra">Brasil</a></div><nav><ul id="lista-barra-brasil" class="list"><li><a href="https://www2.uft.edu.br/cecane/#" id="menu-icon"></a></li><li class="list-item first"><a href="http://www.saude.gov.br/coronavirus" style="color:red;">CORONAVÍRUS (COVID-19)</a></li><li class="list-item"><a href="http://www.simplifique.gov.br/" class="link-barra">Simplifique!</a></li><li class="list-item"><a href="https://www.gov.br/pt-br/participacao-social/" class="link-barra">Participe</a></li><li class="list-item"><a href="http://www.acessoainformacao.gov.br/" class="link-barra">Acesso à informação</a></li><li class="list-item"><a href="http://www.planalto.gov.br/legislacao" class="link-barra">Legislação</a></li><li class="list-item last last-item"><a href="https://gov.br/pt-br/canais-do-executivo-federal" class="link-barra">Canais</a></li></ul></nav><span id="brasil-vlibras"><a class="logo-vlibras" id="logovlibras" href="https://www2.uft.edu.br/cecane/#"></a><span class="link-vlibras"><img src="{% static 'assets/imagem/vlibras.gif' %}" class="barralazy" data-src="/imagens/vlibras.gif" width="132" height="116">&nbsp;<br>O conteúdo desse portal pode ser acessível em Libras usando o <a href="http://www.vlibras.gov.br/">VLibras</a></span></span></div></div>
+            <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light" style="background-color: #f1f1f1;">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="{% static 'assets/img/favicons/logoC.svg' %}" style="margin-left:43px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="main_nav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item"><a class="nav-link fw-medium" aria-current="page" href="#header">Página Inicial</a></li>
+                            <li class="nav-item"><a class="nav-link fw-medium" href="#about">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link fw-medium" href="#team">Equipe</a></li>
+                            <li class="nav-item"><a class="nav-link fw-medium" href="#event">Eventos</a></li>
+                            <li class="nav-item"><a class="nav-link fw-medium" href="#notices">Noticias</a></li>
+                            <li class="nav-item"><a class="nav-link fw-medium" href="#contact">Contato</a></li>
+                        </ul>
+                    </div> <!-- navbar-collapse.// -->
+                </div> <!-- container-fluid.// -->
+            </nav>
+            <br>
+            <div class="container">
+                <section class="py-0" id="header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="ui centered container middle aligned equal width grid">
+                                <div class="column heading-text-wrapper">
+                                    <div class="row">
+                                        <p class="heading-text">
+                                            {% block header %}
+                                            {% placeholder "Header" %}
+                                            {% endblock %}
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="column heading-image-wrapper"><img class="ui massive image" src="{% static 'assets/img/illustrations/back.svg' %}" style="background-position:top right;background-size: 50px 500px;margin-top:5rem;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="py-5" id="about">
+                <!--/.bg-holder-->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9 mx-auto text-center mb-3">
+                                <p class="mb-5">
+                                    {% block content1 %}
+                                    {% placeholder "Content1" %}
+                                    {% endblock %}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="py-5" id="team">
+                <!--/.bg-holder-->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9 mx-auto text-center mb-3">
+                                <p class="mb-5">
+                                    {% block content2 %}
+                                    {% placeholder "Content2" %}
+                                    {% endblock %}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="py-5" id="event">
+                <!--/.bg-holder-->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9 mx-auto text-center mb-3">
+                                <p class="mb-5">
+                                    {% block content3 %}
+                                    {% placeholder "Content3" %}
+                                    {% endblock %}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="py-5" id="notices">
+                <!--/.bg-holder-->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9 mx-auto text-center mb-3">
+                                <p class="mb-5">
+                                    {% block content4 %}
+                                    {% placeholder "Content4" %}
+                                    {% endblock %}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="py-5" id="contact">
+                <!--/.bg-holder-->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9 mx-auto text-center mb-3">
+                                <p class="mb-5">
+                                    {% block content5 %}
+                                    {% placeholder "Content5" %}
+                                    {% endblock %}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="text-center text-white fixed" style="background-color: #0f632f;">
+            <div class="container p-3">
+                <section class="mb-4">
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/cecaneuft/" role="button"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="mailto:cecane.to@uft.edu.br?subject=Hello%20again" role="button"><i class="fas fa-envelope"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/119088875431318/photos/capacita%C3%A7%C3%A3o-cecane-uft-momento-de-troca-de-experi%C3%AAncias-sobre-elabora%C3%A7%C3%A3o-de-manu/231854480821423/" role="button"><i class="fab fa-facebook"></i></a>
+                </section>
+                <section class="p-2 text-center">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                          <ul class="list-unstyled mb-0">
+                              <li><a class="text-white" aria-current="page" href="#header">Página Inicial</a></li>
+                              <li><a class="text-white" href="#team">Equipe</a></li>
+                              <li><a class="text-white" href="#event">Eventos</a></li>
+                              <li><a class="text-white" href="#notices">Noticias</a></li>
+                              <li><a class="text-white" href="#contact">Contato</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                          <ul class="list-unstyled mb-0">
+                              <li><a class="text-white" aria-current="page" href="https://www.gov.br/fnde/pt-br">Portal FNDE</a></li>
+                              <li><a class="text-white" href="https://www.fnde.gov.br/index.php/programas/pnae?view=default">Programa PNAE</a></li>
+                              <li><a class="text-white" href="https://www.fnde.gov.br/index.php/programas/pnae/pnae-area-gestores/informanutri">Informa Nutri</a></li>
+                              <li><a class="text-white" href="https://www.fnde.gov.br/index.php/programas/pnae/pnae-sobre-o-programa/pnae-legislacao">Legislação</a></li>
+                              <li><a class="text-white" href="https://www.fnde.gov.br/index.php/programas/pnae/pnae-contatos">Contato</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                          <ul class="list-unstyled mb-0">
+                              <li><a class="text-white" aria-current="page" href="https://www.rebrae.com.br/index.php">Portal REABRE</a></li>
+                              <li><a class="text-white" href="https://www.rebrae.com.br/index.php/centros-colaboradores">Centros Colaboradores</a></li>
+                              <li><a class="text-white" href="https://www.rebrae.com.br/index.php/atuacao-escolar/programa-nacional-de-alimentacao-escolar">Atuação</a></li>
+                              <li><a class="text-white" href="https://www.rebrae.com.br/index.php/noticias">Notícias</a></li>
+                              <li><a class="text-white" href="https://www.rebrae.com.br/index.php/contato">Contato</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.2);">
+                <p class="text-white">{% block footer %}&copy;Jackson Pereira e Nequita Teles | 2021{% endblock footer %}</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <script src="{% static 'vendors/@popperjs/popper.min.js' %}"></script>
+        <script src="{% static 'vendors/bootstrap/bootstrap.min.js' %}"></script>
+        <script src="{% static 'vendors/is/is.min.js' %}"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+        <script src="{% static 'assets/js/myjs.js' %}"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&amp;display=swap" rel="stylesheet">
+
+        <div><div vw="" class="enabled"><div vw-access-button="" class="active"><img class="access-button" data-src="{% static 'assets/imagem/component-ac.png'%}" alt="Conteúdo acessível em libras usando o VLibras Widget com opções dos Avatares Ícaro ou Hozana." src="{% static 'assets/imagem/component-ac.png'%}"><img class="pop-up" data-src="{ static'assets/imagem/popup.png'%}" alt="Conteúdo acessível em libras usando o VLibras Widget com opções dos Avatares Ícaro ou Hozana." src="{% static 'assets/imagem/popup.png'%}"></div><div vw-plugin-wrapper=""><div vp=""><div vp-box=""></div><div vp-message-box=""></div><div vp-settings=""></div><div vp-settings-btn=""></div><div vp-info-screen=""></div><div vp-dictionary=""></div><div vp-suggestion-screen=""></div><div vp-suggestion-button=""></div><div vp-rate-box=""></div><div vp-rate-button=""></div><div vp-controls=""></div><div vp-change-avatar=""></div></div></div></div></div><script src="{% static 'assets/scripts/vlibras-plugin.js.download'%}" type="text/javascript"></script>
+
+        {% render_block "js" %}
+    </body>
+</html>
